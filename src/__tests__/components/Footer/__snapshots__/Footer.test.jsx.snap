@@ -1,0 +1,847 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component click on Contact Us link from footer in desktop view 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-100 makeStyles-root-81"
+    data-testid="Footer"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+    >
+      <div
+        class="MuiGrid-root makeStyles-gridContainer-101 makeStyles-gridContainer-102 makeStyles-mainGridContainer-92 MuiGrid-container"
+      >
+        <div
+          class="MuiGrid-root makeStyles-desktopLogoContainer-91 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-3"
+        >
+          <img
+            class="makeStyles-logo-82 makeStyles-logo-103"
+            src="logo.png"
+          />
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-104 makeStyles-menuBox-95"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-menuHeadTitle-83 MuiTypography-h4"
+            >
+              FreedomPlus
+            </h4>
+            <div
+              class="MuiBox-root MuiBox-root-105 makeStyles-menuList-97"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-89 MuiTypography-colorPrimary"
+                href="https://www.freedomplus.com/privacypolicy/"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-106 makeStyles-root-107 MuiButton-contained makeStyles-menuItemButton-90 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-84 MuiTypography-h4"
+                    >
+                      Privacy Notice
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-89 MuiTypography-colorPrimary"
+                href="https://www.freedomplus.com/california-privacy-notice/"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-106 makeStyles-root-108 MuiButton-contained makeStyles-menuItemButton-90 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-84 MuiTypography-h4"
+                    >
+                      California Privacy Notice
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-89 MuiTypography-colorPrimary"
+                href="https://www.freedomplus.com/termsofuse"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-106 makeStyles-root-109 MuiButton-contained makeStyles-menuItemButton-90 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-84 MuiTypography-h4"
+                    >
+                      Terms of Use
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="MuiDivider-root makeStyles-divider-96"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-110 makeStyles-menuBox-95"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-menuHeadTitle-83 MuiTypography-h4"
+            >
+              Consolidation Plus
+            </h4>
+            <div
+              class="MuiBox-root MuiBox-root-111 makeStyles-menuList-97"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-89 MuiTypography-colorPrimary"
+                href="https://consolplus.com/privacy-notice/"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-106 makeStyles-root-112 MuiButton-contained makeStyles-menuItemButton-90 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-84 MuiTypography-h4"
+                    >
+                      Privacy Notice
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-89 MuiTypography-colorPrimary"
+                href="https://consolplus.com/california-privacy-notice/"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-106 makeStyles-root-113 MuiButton-contained makeStyles-menuItemButton-90 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-84 MuiTypography-h4"
+                    >
+                      California Privacy Notice
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="MuiDivider-root makeStyles-divider-96"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-114 makeStyles-menuBox-95"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-menuHeadTitle-83 MuiTypography-h4"
+            >
+              Mailing Address
+            </h4>
+            <div
+              class="MuiBox-root MuiBox-root-115 makeStyles-menuList-97"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-85 MuiTypography-h4"
+              >
+                Main Office
+              </h4>
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-85 MuiTypography-h4"
+              >
+                2114 E Rio Salado Blvd
+              </h4>
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-85 MuiTypography-h4"
+              >
+                Tempe, AZ 85281
+              </h4>
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-85 MuiTypography-h4"
+              >
+                 PO Box 2340
+              </h4>
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-85 MuiTypography-h4"
+              >
+                Phoenix, AZ 85002-2340
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+    >
+      <div
+        class="MuiGrid-root makeStyles-gridContainer-101 makeStyles-gridContainer-116 MuiGrid-container MuiGrid-spacing-xs-3"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item makeStyles-menuBottomWrap-86 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-12"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-117 makeStyles-bottomLogoBox-93"
+          >
+            <img
+              class="makeStyles-logo-82 makeStyles-logo-118"
+              src="logo.png"
+            />
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-119 makeStyles-bottomCopyrightBox-94"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-menuBottomDescription-87 MuiTypography-h4"
+            >
+              © 2021 Freedom Financial Asset Management, LLC. All Rights Reserved.
+            </h4>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root makeStyles-root-106 makeStyles-root-120 MuiButton-contained makeStyles-button-88 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+            data-testid="SecondaryButton"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Contact Us
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Footer Component click on Contact Us link from footer in mobile view 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-60 makeStyles-root-41"
+    data-testid="Footer"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+    >
+      <div
+        class="MuiGrid-root makeStyles-gridContainer-61 makeStyles-gridContainer-62 makeStyles-mainGridContainer-52 MuiGrid-container"
+      >
+        <div
+          class="MuiGrid-root makeStyles-desktopLogoContainer-51 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-3"
+        >
+          <img
+            class="makeStyles-logo-42 makeStyles-logo-63"
+            src="logo.png"
+          />
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-64 makeStyles-footerHeader-58"
+        >
+          <img
+            class="makeStyles-logo-42 makeStyles-logo-65"
+            src="logo.png"
+          />
+          <button
+            class="MuiButtonBase-root MuiButton-root makeStyles-root-66 makeStyles-root-67 MuiButton-contained makeStyles-button-48 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+            data-testid="SecondaryButton"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Contact Us
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-68 makeStyles-menuBox-55"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-menuHeadTitle-43 MuiTypography-h4"
+            >
+              FreedomPlus
+            </h4>
+            <div
+              class="MuiBox-root MuiBox-root-69 makeStyles-menuList-57"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-49 MuiTypography-colorPrimary"
+                href="https://www.freedomplus.com/privacypolicy/"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-66 makeStyles-root-70 MuiButton-contained makeStyles-menuItemButton-50 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-44 MuiTypography-h4"
+                    >
+                      Privacy Notice
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-49 MuiTypography-colorPrimary"
+                href="https://www.freedomplus.com/california-privacy-notice/"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-66 makeStyles-root-71 MuiButton-contained makeStyles-menuItemButton-50 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-44 MuiTypography-h4"
+                    >
+                      California Privacy Notice
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-49 MuiTypography-colorPrimary"
+                href="https://www.freedomplus.com/termsofuse"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-66 makeStyles-root-72 MuiButton-contained makeStyles-menuItemButton-50 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-44 MuiTypography-h4"
+                    >
+                      Terms of Use
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="MuiDivider-root makeStyles-divider-56"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-73 makeStyles-menuBox-55"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-menuHeadTitle-43 MuiTypography-h4"
+            >
+              Consolidation Plus
+            </h4>
+            <div
+              class="MuiBox-root MuiBox-root-74 makeStyles-menuList-57"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-49 MuiTypography-colorPrimary"
+                href="https://consolplus.com/privacy-notice/"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-66 makeStyles-root-75 MuiButton-contained makeStyles-menuItemButton-50 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-44 MuiTypography-h4"
+                    >
+                      Privacy Notice
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-49 MuiTypography-colorPrimary"
+                href="https://consolplus.com/california-privacy-notice/"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-66 makeStyles-root-76 MuiButton-contained makeStyles-menuItemButton-50 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-44 MuiTypography-h4"
+                    >
+                      California Privacy Notice
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="MuiDivider-root makeStyles-divider-56"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-77 makeStyles-menuBox-55"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-menuHeadTitle-43 MuiTypography-h4"
+            >
+              Mailing Address
+            </h4>
+            <div
+              class="MuiBox-root MuiBox-root-78 makeStyles-menuList-57"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-45 MuiTypography-h4"
+              >
+                Main Office
+              </h4>
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-45 MuiTypography-h4"
+              >
+                2114 E Rio Salado Blvd
+              </h4>
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-45 MuiTypography-h4"
+              >
+                Tempe, AZ 85281
+              </h4>
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-45 MuiTypography-h4"
+              >
+                 PO Box 2340
+              </h4>
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-45 MuiTypography-h4"
+              >
+                Phoenix, AZ 85002-2340
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+    >
+      <div
+        class="MuiGrid-root makeStyles-gridContainer-61 makeStyles-gridContainer-79 MuiGrid-container MuiGrid-spacing-xs-3"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item makeStyles-menuBottomWrap-46 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-12"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-80 makeStyles-bottomCopyrightBox-54"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-menuBottomDescription-47 MuiTypography-h4"
+            >
+              © 2021 Freedom Financial Asset Management, LLC. All Rights Reserved.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Footer Component renders footer component 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-20 makeStyles-root-1"
+    data-testid="Footer"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+    >
+      <div
+        class="MuiGrid-root makeStyles-gridContainer-21 makeStyles-gridContainer-22 makeStyles-mainGridContainer-12 MuiGrid-container"
+      >
+        <div
+          class="MuiGrid-root makeStyles-desktopLogoContainer-11 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-3"
+        >
+          <img
+            class="makeStyles-logo-2 makeStyles-logo-23"
+            src="logo.png"
+          />
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-24 makeStyles-menuBox-15"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-menuHeadTitle-3 MuiTypography-h4"
+            >
+              FreedomPlus
+            </h4>
+            <div
+              class="MuiBox-root MuiBox-root-25 makeStyles-menuList-17"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-9 MuiTypography-colorPrimary"
+                href="https://www.freedomplus.com/privacypolicy/"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-26 makeStyles-root-27 MuiButton-contained makeStyles-menuItemButton-10 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-4 MuiTypography-h4"
+                    >
+                      Privacy Notice
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-9 MuiTypography-colorPrimary"
+                href="https://www.freedomplus.com/california-privacy-notice/"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-26 makeStyles-root-28 MuiButton-contained makeStyles-menuItemButton-10 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-4 MuiTypography-h4"
+                    >
+                      California Privacy Notice
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-9 MuiTypography-colorPrimary"
+                href="https://www.freedomplus.com/termsofuse"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-26 makeStyles-root-29 MuiButton-contained makeStyles-menuItemButton-10 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-4 MuiTypography-h4"
+                    >
+                      Terms of Use
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="MuiDivider-root makeStyles-divider-16"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-30 makeStyles-menuBox-15"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-menuHeadTitle-3 MuiTypography-h4"
+            >
+              Consolidation Plus
+            </h4>
+            <div
+              class="MuiBox-root MuiBox-root-31 makeStyles-menuList-17"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-9 MuiTypography-colorPrimary"
+                href="https://consolplus.com/privacy-notice/"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-26 makeStyles-root-32 MuiButton-contained makeStyles-menuItemButton-10 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-4 MuiTypography-h4"
+                    >
+                      Privacy Notice
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-9 MuiTypography-colorPrimary"
+                href="https://consolplus.com/california-privacy-notice/"
+                rel="noopener"
+                target="_blank"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root makeStyles-root-26 makeStyles-root-33 MuiButton-contained makeStyles-menuItemButton-10 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                  data-testid="SecondaryButton"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <h4
+                      class="MuiTypography-root makeStyles-menuItem-4 MuiTypography-h4"
+                    >
+                      California Privacy Notice
+                    </h4>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="MuiDivider-root makeStyles-divider-16"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-34 makeStyles-menuBox-15"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-menuHeadTitle-3 MuiTypography-h4"
+            >
+              Mailing Address
+            </h4>
+            <div
+              class="MuiBox-root MuiBox-root-35 makeStyles-menuList-17"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-5 MuiTypography-h4"
+              >
+                Main Office
+              </h4>
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-5 MuiTypography-h4"
+              >
+                2114 E Rio Salado Blvd
+              </h4>
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-5 MuiTypography-h4"
+              >
+                Tempe, AZ 85281
+              </h4>
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-5 MuiTypography-h4"
+              >
+                 PO Box 2340
+              </h4>
+              <h4
+                class="MuiTypography-root makeStyles-menuDescription-5 MuiTypography-h4"
+              >
+                Phoenix, AZ 85002-2340
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+    >
+      <div
+        class="MuiGrid-root makeStyles-gridContainer-21 makeStyles-gridContainer-36 MuiGrid-container MuiGrid-spacing-xs-3"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item makeStyles-menuBottomWrap-6 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-12"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-37 makeStyles-bottomLogoBox-13"
+          >
+            <img
+              class="makeStyles-logo-2 makeStyles-logo-38"
+              src="logo.png"
+            />
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-39 makeStyles-bottomCopyrightBox-14"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-menuBottomDescription-7 MuiTypography-h4"
+            >
+              © 2021 Freedom Financial Asset Management, LLC. All Rights Reserved.
+            </h4>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root makeStyles-root-26 makeStyles-root-40 MuiButton-contained makeStyles-button-8 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+            data-testid="SecondaryButton"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Contact Us
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

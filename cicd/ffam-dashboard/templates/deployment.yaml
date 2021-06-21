@@ -1,0 +1,134 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "dashboard.fullname" . }}
+  namespace: {{ .Values.appNamespace }}
+  labels:
+    app.kubernetes.io/name: {{ include "dashboard.name" . }}
+    helm.sh/chart: {{ include "dashboard.chart" . }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/managed-by: {{ .Release.Service }}
+    app: {{ include "dashboard.name" . }}
+    chart: {{ include "dashboard.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+    role: application
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: {{ include "dashboard.name" . }}
+      app.kubernetes.io/instance: {{ .Release.Name }}
+      app: {{ include "dashboard.name" . }}
+      release: {{ .Release.Name }}
+  template:
+    metadata:
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "{{ .Values.targetPort }}"
+        prometheus.io/path: "/metrics"
+      labels:
+        app.kubernetes.io/name: {{ include "dashboard.name" . }}
+        app.kubernetes.io/instance: {{ .Release.Name }}
+        app: {{ include "dashboard.name" . }}
+        chart: {{ include "dashboard.chart" . }}
+        release: {{ .Release.Name }}
+        heritage: {{ .Release.Service }}
+    spec:
+      serviceAccountName: {{ include "dashboard.name" . }}
+      automountServiceAccountToken: true
+      containers:
+      {{- if .Values.googleEndpoints.enabled }}
+        - name: {{ .Chart.Name }}-endpoints
+          image: gcr.io/endpoints-release/endpoints-runtime:1
+          args: [
+            "--http_port", "{{ .Values.googleEndpoints.targetPort }}",
+            "--backend", "127.0.0.1:{{ .Values.service.targetPort }}",
+            "--service", "{{ .Values.service.endpointServiceName }}.endpoints.{{ .Values.projectID }}.cloud.goog",
+            "--rollout_strategy", "fixed",
+            "--version", "{{ .Values.endpointVersion }}",
+            "-z", "healthz"
+          ]
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi         
+          ports:
+            - containerPort: {{ .Values.googleEndpoints.targetPort }}
+              name: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+        {{ end }}
+        {{- if .Values.cloudsql.enabled }}
+        - name: {{ .Chart.Name }}-cloudsql
+          image: "gcr.io/cloudsql-docker/gce-proxy:1.14"
+          command:
+            - "/cloud_sql_proxy"
+            - "-instances={{ range .Values.cloudsql.instances }}{{ .connectionName }}=tcp:{{ .port }},{{ end }}"
+          ports:
+          {{- range .Values.cloudsql.instances }}
+            - containerPort: {{ .port }}
+              protocol: TCP
+          {{ end }}
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+        {{ end }}
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: api
+              containerPort: {{ .Values.service.targetPort }}
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: {{ .Values.livenessProbePath }}
+              port: api
+            failureThreshold: 3
+            initialDelaySeconds: 30
+            periodSeconds: 3
+            successThreshold: 1
+            timeoutSeconds: 1
+          readinessProbe:
+            httpGet:
+              path: {{ .Values.readinessProbePath }}
+              port: api
+            failureThreshold: 3
+            initialDelaySeconds: 30
+            periodSeconds: 3
+            successThreshold: 1
+            timeoutSeconds: 1
+          envFrom:
+            - configMapRef:
+                name: dashboard-configmap
+          env:
+            - name: REACT_APP_DASHBOARD_API_URL
+              value: {{ .Values.react.app.dashboardApi.url }}
+            - name: REACT_APP_AUTH0_DOMAIN
+              value: {{ .Values.react.app.auth0.domain }}
+            - name: REACT_APP_AUTH0_AUDIENCE
+              value: {{ .Values.react.app.auth0.audience }}
+            - name: REACT_APP_AUTH0_CLIENT_ID
+              value: {{ .Values.react.app.auth0.clientId }}
+          resources:
+{{ toYaml .Values.resources | indent 12 }}
+    {{- with .Values.nodeSelector }}
+      nodeSelector:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.tolerations }}
+      tolerations:
+{{ toYaml . | indent 8 }}
+    {{- end }}

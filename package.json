@@ -1,0 +1,142 @@
+{
+  "name": "dashboard",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.3.15",
+    "@apollo/react-testing": "^4.0.0",
+    "@auth0/auth0-react": "^1.4.0",
+    "@date-io/dayjs": "1.x",
+    "@fontsource/inter": "^4.2.2",
+    "@fontsource/open-sans": "^4.2.2",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@material-ui/pickers": "^3.2.10",
+    "@testing-library/react-hooks": "^5.1.0",
+    "abavalidator": "^3.1.1",
+    "capital-case": "^1.0.4",
+    "classnames": "^2.2.6",
+    "dateformat": "^4.3.1",
+    "dayjs": "^1.10.4",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "graphql-hooks": "^5.1.1",
+    "history": "^5.0.0",
+    "i18next": "^19.8.4",
+    "javascript-time-ago": "^2.3.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-i18next": "^11.8.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "us-bank-account-validator": "^0.2.0"
+  },
+  "scripts": {
+    "start": "PUBLIC_URL=/dashboard/loans react-app-rewired start",
+    "dev": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "TZ=UTC react-app-rewired test",
+    "test:coverage": "TZ=UTC yarn test --coverage --watchAll=false",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --list-different --write 'src/**/*.{ts,js,jsx,css,graphql,json}'",
+    "precommit": "lint-staged && npm run lint --fix",
+    "lint": "eslint --ext .jsx --ext .js src/",
+    "lint:fix": "yarn lint --fix",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "functions": 80,
+        "lines": 85,
+        "branches": 80,
+        "statements": 85
+      }
+    },
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/src/components/ErrorBoundary/",
+      "<rootDir>/src/components/Button/",
+      "<rootDir>/src/gql/",
+      "<rootDir>/src/properties/",
+      "<rootDir>/src/utils",
+      "<rootDir>/src/themes",
+      "<rootDir>/src/translations",
+      "src/fixtures/paymentHistoryBankAcctNumber_test_data.js",
+      "src/components/LoanGlance/LoanGlance.stories.js",
+      "src/fixtures/test_data.js",
+      "<rootDir>/src/constants",
+      "<rootDir>/src/components/SubmitPaymentModal/"
+    ],
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/components/ErrorBoundary/**",
+      "!**/gql/**",
+      "!**/properties/**",
+      "!**/utils/**",
+      "!**/themes/**",
+      "!**/translations/**",
+      "!**/constants/**"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.1.18",
+    "@storybook/addon-essentials": "^6.1.18",
+    "@storybook/addon-links": "^6.1.18",
+    "@storybook/node-logger": "^6.1.18",
+    "@storybook/preset-create-react-app": "^3.1.6",
+    "@storybook/react": "^6.1.18",
+    "@testing-library/dom": "^7.29.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^10.0.0",
+    "@testing-library/user-event": "^12.6.2",
+    "babel-jest": "^26.6.3",
+    "customize-cra": "^1.0.0",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-unused-imports": "^1.0.1",
+    "husky": ">=4",
+    "lint-staged": ">=10",
+    "prettier": "2.2.1",
+    "react-app-rewired": "^2.1.8",
+    "storybook-addon-i18next": "^1.3.0",
+    "storybook-addon-material-ui": "^0.9.0-alpha.24"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "prepare-commit-msg": "./husky/prepare-commit-msg.sh $HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js,jsx,css,graphql,json}": "prettier --list-different --write 'src/**/*.{ts,js,jsx,css,graphql,json}'",
+    "*.{js,jsx}": "yarn lint --fix"
+  }
+}

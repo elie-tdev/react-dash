@@ -1,0 +1,18 @@
+---
+swagger: "2.0"
+info:
+  description: dashboard API
+  version: 1.0.0
+  title: dashboard API
+host: dashboard.endpoints.project-434ad5b99093.cloud.goog
+paths:
+  /:
+    get:
+      parameters: []
+      responses:
+        200:
+          description: page loads
+        400:
+          description: page bad
+      operationId: getHomePage
+definitions: {}

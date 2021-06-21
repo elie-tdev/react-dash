@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoanSelectItem Renders 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-38 makeStyles-column-18 makeStyles-accountItem-1"
+    data-testid="LoanSelectItem"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-39 makeStyles-row-16 makeStyles-topRow-6"
+    >
+      <p
+        class="MuiTypography-root makeStyles-accountNumber-2 MuiTypography-body1"
+      />
+      <div
+        class="makeStyles-accountRadio-7"
+      />
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-40 makeStyles-row-16"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-46 makeStyles-container-44"
+        data-testid="LabelValueColumn"
+      >
+        <h6
+          class="MuiTypography-root makeStyles-labelStyle-4 MuiTypography-h6"
+        >
+          Remaining Balance
+        </h6>
+        <p
+          class="MuiTypography-root makeStyles-value-41 makeStyles-value-45 makeStyles-valueSmall-43 makeStyles-valueStyle-5 MuiTypography-body1"
+        >
+          $10,000.00
+        </p>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-48 makeStyles-container-44"
+        data-testid="LabelValueColumn"
+      >
+        <h6
+          class="MuiTypography-root makeStyles-labelStyle-4 MuiTypography-h6"
+        >
+          Amount Due
+        </h6>
+        <p
+          class="MuiTypography-root makeStyles-value-41 makeStyles-value-47 makeStyles-valueSmall-43 makeStyles-valueStyle-5 MuiTypography-body1"
+        >
+          $500.00
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

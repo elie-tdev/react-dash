@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MobilePaymentAccounts onClick of Account list item 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-81 makeStyles-paymentAccountsBoxContainer-69"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-82 makeStyles-paymentAccountsBox-70 makeStyles-paymentAccountsBox-79"
+    >
+      <h1
+        class="MuiTypography-root makeStyles-row-71 MuiTypography-h1"
+      >
+        Payment Accounts
+      </h1>
+      <p
+        class="MuiTypography-root makeStyles-caption-72 makeStyles-row-71 MuiTypography-body1"
+      >
+        Your default bank account will be used for any future payments scheduled through the dashboard. It will not impact previously scheduled payments.
+      </p>
+      <div
+        aria-label="chosenAccount"
+        class="MuiFormGroup-root makeStyles-radioGroup-73"
+        role="radiogroup"
+      >
+        <ul
+          class="MuiList-root makeStyles-itemList-74 MuiList-padding"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-83 makeStyles-listPrimary-75"
+          >
+            <p
+              class="MuiTypography-root makeStyles-defaultAccount-78 MuiTypography-body1"
+            >
+              Default Account
+            </p>
+            <li
+              class="MuiListItem-container"
+            >
+              <div
+                class="MuiListItem-root makeStyles-listItem-76 makeStyles-listItem-85 MuiListItem-gutters MuiListItem-secondaryAction"
+              >
+                <label
+                  class="MuiFormControlLabel-root"
+                >
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-86 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-checked-87 Mui-checked MuiIconButton-colorSecondary"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <input
+                        checked=""
+                        class="PrivateSwitchBase-input-89"
+                        name="chosenAccount"
+                        type="radio"
+                        value="0"
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-90 PrivateRadioButtonIcon-checked-92"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-91"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </span>
+                  <span
+                    class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                  >
+                    Checking
+                     
+                    •••• 
+                    1234
+                  </span>
+                </label>
+              </div>
+              <div
+                class="MuiListItemSecondaryAction-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root makeStyles-root-93 makeStyles-root-94 MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+      data-testid="PrimaryButton"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        + New Payment Account
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`MobilePaymentAccounts onClick of Account list item for non primary account 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-107 makeStyles-paymentAccountsBoxContainer-95"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-108 makeStyles-paymentAccountsBox-96 makeStyles-paymentAccountsBox-105"
+    >
+      <h1
+        class="MuiTypography-root makeStyles-row-97 MuiTypography-h1"
+      >
+        Payment Accounts
+      </h1>
+      <p
+        class="MuiTypography-root makeStyles-caption-98 makeStyles-row-97 MuiTypography-body1"
+      >
+        Your default bank account will be used for any future payments scheduled through the dashboard. It will not impact previously scheduled payments.
+      </p>
+      <div
+        aria-label="chosenAccount"
+        class="MuiFormGroup-root makeStyles-radioGroup-99"
+        role="radiogroup"
+      >
+        <ul
+          class="MuiList-root makeStyles-itemList-100 MuiList-padding"
+        >
+          <li
+            class="MuiListItem-container"
+          >
+            <div
+              class="MuiListItem-root makeStyles-listItem-102 makeStyles-listItem-110 makeStyles-listBorder-103 MuiListItem-gutters MuiListItem-secondaryAction"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-111 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-114"
+                      name="chosenAccount"
+                      type="radio"
+                      value="0"
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-115"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-116"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  Checking
+                   
+                  •••• 
+                  1234
+                </span>
+              </label>
+            </div>
+            <div
+              class="MuiListItemSecondaryAction-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root makeStyles-root-118 makeStyles-root-119 MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+      data-testid="PrimaryButton"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        + New Payment Account
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`MobilePaymentAccounts onClick of New Payment Account 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-55 makeStyles-paymentAccountsBoxContainer-43"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-56 makeStyles-paymentAccountsBox-44 makeStyles-paymentAccountsBox-53"
+    >
+      <h1
+        class="MuiTypography-root makeStyles-row-45 MuiTypography-h1"
+      >
+        Payment Accounts
+      </h1>
+      <p
+        class="MuiTypography-root makeStyles-caption-46 makeStyles-row-45 MuiTypography-body1"
+      >
+        Your default bank account will be used for any future payments scheduled through the dashboard. It will not impact previously scheduled payments.
+      </p>
+      <div
+        aria-label="chosenAccount"
+        class="MuiFormGroup-root makeStyles-radioGroup-47"
+        role="radiogroup"
+      >
+        <ul
+          class="MuiList-root makeStyles-itemList-48 MuiList-padding"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-57 makeStyles-listPrimary-49"
+          >
+            <p
+              class="MuiTypography-root makeStyles-defaultAccount-52 MuiTypography-body1"
+            >
+              Default Account
+            </p>
+            <li
+              class="MuiListItem-container"
+            >
+              <div
+                class="MuiListItem-root makeStyles-listItem-50 makeStyles-listItem-59 MuiListItem-gutters MuiListItem-secondaryAction"
+              >
+                <label
+                  class="MuiFormControlLabel-root"
+                >
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-60 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-checked-61 Mui-checked MuiIconButton-colorSecondary"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <input
+                        checked=""
+                        class="PrivateSwitchBase-input-63"
+                        name="chosenAccount"
+                        type="radio"
+                        value="0"
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-64 PrivateRadioButtonIcon-checked-66"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-65"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </span>
+                  <span
+                    class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                  >
+                    Checking
+                     
+                    •••• 
+                    1234
+                  </span>
+                </label>
+              </div>
+              <div
+                class="MuiListItemSecondaryAction-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root makeStyles-root-67 makeStyles-root-68 MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+      data-testid="PrimaryButton"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        + New Payment Account
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`MobilePaymentAccounts renders MobilePaymentAccounts 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-13 makeStyles-paymentAccountsBoxContainer-1"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-14 makeStyles-paymentAccountsBox-2 makeStyles-paymentAccountsBox-11"
+    >
+      <h1
+        class="MuiTypography-root makeStyles-row-3 MuiTypography-h1"
+      >
+        Payment Accounts
+      </h1>
+      <p
+        class="MuiTypography-root makeStyles-caption-4 makeStyles-row-3 MuiTypography-body1"
+      >
+        Your default bank account will be used for any future payments scheduled through the dashboard. It will not impact previously scheduled payments.
+      </p>
+      <div
+        aria-label="chosenAccount"
+        class="MuiFormGroup-root makeStyles-radioGroup-5"
+        role="radiogroup"
+      >
+        <ul
+          class="MuiList-root makeStyles-itemList-6 MuiList-padding"
+        />
+      </div>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root makeStyles-root-15 makeStyles-root-16 MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+      data-testid="PrimaryButton"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        + New Payment Account
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`MobilePaymentAccounts renders MobilePaymentAccounts with bank accounts 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-29 makeStyles-paymentAccountsBoxContainer-17"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-30 makeStyles-paymentAccountsBox-18 makeStyles-paymentAccountsBox-27"
+    >
+      <h1
+        class="MuiTypography-root makeStyles-row-19 MuiTypography-h1"
+      >
+        Payment Accounts
+      </h1>
+      <p
+        class="MuiTypography-root makeStyles-caption-20 makeStyles-row-19 MuiTypography-body1"
+      >
+        Your default bank account will be used for any future payments scheduled through the dashboard. It will not impact previously scheduled payments.
+      </p>
+      <div
+        aria-label="chosenAccount"
+        class="MuiFormGroup-root makeStyles-radioGroup-21"
+        role="radiogroup"
+      >
+        <ul
+          class="MuiList-root makeStyles-itemList-22 MuiList-padding"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-31 makeStyles-listPrimary-23"
+          >
+            <p
+              class="MuiTypography-root makeStyles-defaultAccount-26 MuiTypography-body1"
+            >
+              Default Account
+            </p>
+            <li
+              class="MuiListItem-container"
+            >
+              <div
+                class="MuiListItem-root makeStyles-listItem-24 makeStyles-listItem-33 MuiListItem-gutters MuiListItem-secondaryAction"
+              >
+                <label
+                  class="MuiFormControlLabel-root"
+                >
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-34 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-checked-35 Mui-checked MuiIconButton-colorSecondary"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <input
+                        checked=""
+                        class="PrivateSwitchBase-input-37"
+                        name="chosenAccount"
+                        type="radio"
+                        value="0"
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-38 PrivateRadioButtonIcon-checked-40"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-39"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </span>
+                  <span
+                    class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                  >
+                    Checking
+                     
+                    •••• 
+                    1234
+                  </span>
+                </label>
+              </div>
+              <div
+                class="MuiListItemSecondaryAction-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root makeStyles-root-41 makeStyles-root-42 MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+      data-testid="PrimaryButton"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        + New Payment Account
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;

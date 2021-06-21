@@ -1,0 +1,15 @@
+# Dotfiles
+.releaserc.yml
+.prettierrc.json
+.gitignore
+.git
+.env*
+.editorconfig
+helm-values.yml
+
+# NPM artifacts
+node_modules
+npm-debug.log
+
+# License file
+LICENSE

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentView Component renders PaymentView 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root makeStyles-card-8 makeStyles-card-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-34 makeStyles-box-2"
+    >
+      <h1
+        class="MuiTypography-root makeStyles-title-3 MuiTypography-h1"
+      >
+        Enroll in AutoPay and never miss a payment again.
+      </h1>
+      <button
+        class="MuiButtonBase-root MuiButton-root makeStyles-root-35 makeStyles-root-36 MuiButton-text makeStyles-button-4 MuiButton-textSizeLarge MuiButton-sizeLarge MuiButton-disableElevation"
+        data-testid="PrimaryButton"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Enroll in AutoPay
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

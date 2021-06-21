@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DesktopMenuItem renders 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-39 makeStyles-row-17 makeStyles-desktopMenuItem-1 makeStyles-leftMenu-2"
+    data-testid="NavigationMenuItem-desktop"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-40 makeStyles-iconContainer-5 makeStyles-column-19 makeStyles-icon-8"
+    />
+    <p
+      class="MuiTypography-root makeStyles-itemName-6 MuiTypography-body1"
+    />
+  </div>
+</div>
+`;
+
+exports[`DesktopMenuItem renders with an active item name 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-79 makeStyles-row-57 makeStyles-desktopMenuItem-41 makeStyles-leftMenu-42"
+    data-testid="NavigationMenuItem-desktop"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-80 makeStyles-iconContainer-45 makeStyles-column-59 makeStyles-activeIcon-49"
+    />
+    <p
+      class="MuiTypography-root makeStyles-itemName-46 makeStyles-activeItemName-47 MuiTypography-body1"
+    />
+  </div>
+</div>
+`;

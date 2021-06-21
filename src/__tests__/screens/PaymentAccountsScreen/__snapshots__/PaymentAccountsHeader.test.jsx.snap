@@ -1,0 +1,357 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentAccountsHeader onClick on AddIcon 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-83 makeStyles-row-61 makeStyles-header-44"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-84 makeStyles-arrowBackIconContainer-48"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-85"
+        >
+          <button
+            class="MuiButtonBase-root MuiIconButton-root makeStyles-arrowBackIconButton-47"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-backIcon-46"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <h4
+            class="MuiTypography-root makeStyles-pageTitle-53 MuiTypography-h4"
+          >
+            Payment Accounts
+          </h4>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-86 makeStyles-addIconContainer-51"
+      >
+        <button
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-addIcon-52"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PaymentAccountsHeader onClick on AddIcon in desktop view 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-214 makeStyles-row-192 makeStyles-header-175"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-215 makeStyles-arrowBackIconContainer-179"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-216"
+        >
+          <button
+            class="MuiButtonBase-root MuiIconButton-root makeStyles-arrowBackIconButton-178"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-backIcon-177"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <h4
+            class="MuiTypography-root makeStyles-pageTitle-184 MuiTypography-h4"
+          >
+            Payment Accounts
+          </h4>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-217 makeStyles-addIconContainer-182"
+      >
+        <button
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-addIcon-183"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PaymentAccountsHeader onClick on AddIcon in mobile view 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root makeStyles-headerCard-132 MuiPaper-elevation0 MuiPaper-rounded"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-170 makeStyles-row-148 makeStyles-header-131"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-171 makeStyles-arrowBackIconContainer-135"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-backIcon-133"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-172 makeStyles-lockIconBox-136"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-173 makeStyles-lockIconContainer-137"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M21 18v1c0 1.1-.9 2-2 2H5c-1.11 0-2-.9-2-2V5c0-1.1.89-2 2-2h14c1.1 0 2 .9 2 2v1h-9c-1.11 0-2 .9-2 2v8c0 1.1.89 2 2 2h9zm-9-2h10V8H12v8zm4-2.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-174 makeStyles-addIconContainer-138"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-addIcon-139"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+     
+  </div>
+</div>
+`;
+
+exports[`PaymentAccountsHeader onClick on BackIcon in mobile view 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root makeStyles-headerCard-88 MuiPaper-elevation0 MuiPaper-rounded"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-126 makeStyles-row-104 makeStyles-header-87"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-127 makeStyles-arrowBackIconContainer-91"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-backIcon-89"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-128 makeStyles-lockIconBox-92"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-129 makeStyles-lockIconContainer-93"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M21 18v1c0 1.1-.9 2-2 2H5c-1.11 0-2-.9-2-2V5c0-1.1.89-2 2-2h14c1.1 0 2 .9 2 2v1h-9c-1.11 0-2 .9-2 2v8c0 1.1.89 2 2 2h9zm-9-2h10V8H12v8zm4-2.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-130 makeStyles-addIconContainer-94"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-addIcon-95"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+     
+  </div>
+</div>
+`;
+
+exports[`PaymentAccountsHeader renders PaymentAccountsHeader 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-40 makeStyles-row-18 makeStyles-header-1"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-41 makeStyles-arrowBackIconContainer-5"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-42"
+        >
+          <button
+            class="MuiButtonBase-root MuiIconButton-root makeStyles-arrowBackIconButton-4"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-backIcon-3"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <h4
+            class="MuiTypography-root makeStyles-pageTitle-10 MuiTypography-h4"
+          >
+            Payment Accounts
+          </h4>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-43 makeStyles-addIconContainer-8"
+      >
+        <button
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-addIcon-9"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

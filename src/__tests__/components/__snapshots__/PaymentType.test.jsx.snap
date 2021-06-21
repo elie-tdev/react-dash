@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentType Renders 1`] = `
+<div>
+  <div
+    class="MuiChip-root makeStyles-autoPayRoot-1 MuiChip-sizeSmall"
+    data-testid="PaymentType"
+  >
+    <span
+      class="MuiChip-label MuiChip-labelSmall"
+    >
+      AutoPay
+    </span>
+  </div>
+</div>
+`;

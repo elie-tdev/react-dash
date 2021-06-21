@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MobileMenu renders a capitalized greeting with the user's first name even if they have multiple first names 1`] = `
+<div
+  aria-hidden="true"
+/>
+`;
+
+exports[`MobileMenu renders a capitalized greeting with the user's first name if they have one 1`] = `
+<div
+  aria-hidden="true"
+/>
+`;
+
+exports[`MobileMenu renders a generalized greeting if the user has no first name 1`] = `
+<div
+  aria-hidden="true"
+/>
+`;

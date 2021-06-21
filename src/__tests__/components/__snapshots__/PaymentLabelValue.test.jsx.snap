@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentLabelValue Component Renders PaymentLabelValue 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-46 makeStyles-container-44 makeStyles-containerStyle-1 makeStyles-grayContainerStyle-4"
+    data-testid="LabelValueColumn"
+  >
+    <h6
+      class="MuiTypography-root makeStyles-labelStyle-2 makeStyles-grayLabelStyle-5 MuiTypography-h6"
+    >
+      Payment Amount
+    </h6>
+    <p
+      class="MuiTypography-root makeStyles-value-41 makeStyles-value-45 makeStyles-valueSmall-43 makeStyles-valueStyle-3 makeStyles-grayValueStyle-6 MuiTypography-body1"
+    >
+      $500.00
+    </p>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root-48 makeStyles-container-44 makeStyles-containerStyle-1 makeStyles-grayContainerStyle-4"
+    data-testid="LabelValueColumn"
+  >
+    <h6
+      class="MuiTypography-root makeStyles-labelStyle-2 makeStyles-grayLabelStyle-5 MuiTypography-h6"
+    >
+      Payment Date
+    </h6>
+    <p
+      class="MuiTypography-root makeStyles-value-41 makeStyles-value-47 makeStyles-valueSmall-43 makeStyles-valueStyle-3 makeStyles-grayValueStyle-6 MuiTypography-body1"
+    >
+      Jan 12, 2021
+    </p>
+  </div>
+</div>
+`;
+
+exports[`PaymentLabelValue Component Renders PaymentLabelValue if paymentType is autoPayEnrolled 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-89 makeStyles-row-67 makeStyles-row-58"
+  >
+    <div
+      class="MuiPaper-root MuiCard-root makeStyles-card-63 makeStyles-pastDueCard-57 MuiPaper-elevation0 MuiPaper-rounded"
+    >
+      <div
+        class="MuiCardContent-root makeStyles-row-67"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-95 makeStyles-container-93"
+          data-testid="LabelValueColumn"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-h6"
+          >
+            Past Due
+          </h6>
+          <p
+            class="MuiTypography-root makeStyles-value-90 makeStyles-value-94 makeStyles-valueLarge-91 MuiTypography-body1"
+          >
+            $500.00
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiCard-root makeStyles-card-63 makeStyles-pastDueCard-57 makeStyles-grayBackground-59 MuiPaper-elevation0 MuiPaper-rounded"
+    >
+      <div
+        class="MuiCardContent-root makeStyles-row-67"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-108 makeStyles-container-93"
+          data-testid="LabelValueColumn"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-h6"
+          >
+            Amount Due
+          </h6>
+          <p
+            class="MuiTypography-root makeStyles-value-90 makeStyles-value-107 makeStyles-valueLarge-91 MuiTypography-body1"
+          >
+            Jan 12, 2021
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PaymentLabelValue Component Renders PaymentLabelValue if paymentType is not passed 1`] = `<div />`;

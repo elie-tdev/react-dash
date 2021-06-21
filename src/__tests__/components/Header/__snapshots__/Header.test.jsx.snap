@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component tests header with desktop menu 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-51 makeStyles-headerContainer-3 makeStyles-row-29"
+    data-testid="Header"
+  >
+    <div
+      class="MuiContainer-root makeStyles-container-1"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-52 makeStyles-row-29 makeStyles-headerContentBox-4"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-53 makeStyles-menuIconContainer-10"
+          data-testid="MenuIconContainer"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-menuIcon-9"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-54 makeStyles-logoBox-18 makeStyles-logoBox-21"
+        >
+          <img
+            class="makeStyles-logo-19"
+            src="logo.png"
+          />
+        </div>
+        <h2
+          class="MuiTypography-root makeStyles-title-2 makeStyles-title-20 MuiTypography-h2"
+        >
+          Customer Dashboard
+        </h2>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-61 makeStyles-column-31"
+        data-testid="LoanSelectButton"
+      />
+    </div>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root-62 makeStyles-headerSpacer-7"
+  />
+  <div
+    class="MuiBox-root MuiBox-root-63 makeStyles-headerBottomWrapp-5 makeStyles-screenPaddingOn-42 makeStyles-row-29"
+  >
+    <div
+      class="MuiContainer-root makeStyles-headerBottomContainer-6"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-64 makeStyles-row-29"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-74 makeStyles-row-29 makeStyles-desktopMenuItem-65 makeStyles-leftMenu-66"
+          data-testid="NavigationMenuItem-desktop"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-75 makeStyles-iconContainer-69 makeStyles-column-31 makeStyles-icon-72"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-bottomMenuIcon-14"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root makeStyles-itemName-70 MuiTypography-body1"
+          >
+            Loan Overview
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-76 makeStyles-row-29 makeStyles-desktopMenuItem-65 makeStyles-leftMenu-66"
+          data-testid="NavigationMenuItem-desktop"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-77 makeStyles-iconContainer-69 makeStyles-column-31 makeStyles-icon-72"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-bottomMenuIcon-14"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M4 10h3v7H4zM10.5 10h3v7h-3zM2 19h20v3H2zM17 10h3v7h-3zM12 1L2 6v2h20V6z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root makeStyles-itemName-70 MuiTypography-body1"
+          >
+            Balance Detail
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-78 makeStyles-row-29 makeStyles-desktopMenuItem-65 makeStyles-leftMenu-66"
+          data-testid="NavigationMenuItem-desktop"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-79 makeStyles-iconContainer-69 makeStyles-column-31 makeStyles-icon-72"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-bottomMenuIcon-14"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root makeStyles-itemName-70 MuiTypography-body1"
+          >
+            Payment History
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-80 makeStyles-row-29 makeStyles-desktopMenuItem-65 makeStyles-leftMenu-66"
+          data-testid="NavigationMenuItem-desktop"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-81 makeStyles-iconContainer-69 makeStyles-column-31 makeStyles-icon-72"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-bottomMenuIcon-14"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m1.1-2H3.9c-.5 0-.9.4-.9.9v16.2c0 .4.4.9.9.9h16.2c.4 0 .9-.5.9-.9V3.9c0-.5-.5-.9-.9-.9zM11 7h6v2h-6V7zm0 4h6v2h-6v-2zm0 4h6v2h-6zM7 7h2v2H7zm0 4h2v2H7zm0 4h2v2H7z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root makeStyles-itemName-70 MuiTypography-body1"
+          >
+            Statements
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-82 makeStyles-row-29 makeStyles-menuItemsRightBox-12"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-83 makeStyles-row-29 makeStyles-desktopMenuItem-65 makeStyles-leftMenu-66"
+          data-testid="NavigationMenuItem-desktop"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-84 makeStyles-iconContainer-69 makeStyles-column-31 makeStyles-icon-72"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-menuIcon-9"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root makeStyles-itemName-70 MuiTypography-body1"
+          >
+            Preferences
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-85 makeStyles-row-29 makeStyles-desktopMenuItem-65 makeStyles-leftMenu-66"
+          data-testid="NavigationMenuItem-desktop"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-86 makeStyles-iconContainer-69 makeStyles-column-31 makeStyles-icon-72"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-menuIcon-9"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10.09 15.59L11.5 17l5-5-5-5-1.41 1.41L12.67 11H3v2h9.67l-2.58 2.59zM19 3H5c-1.11 0-2 .9-2 2v4h2V5h14v14H5v-4H3v4c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root makeStyles-itemName-70 MuiTypography-body1"
+          >
+            Log Out
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-87 makeStyles-menuIconRightBox-13"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root makeStyles-menuIcon-9"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root-88 makeStyles-headerBottomSpacer-8"
+  />
+</div>
+`;
+
+exports[`Header Component tests header with menu items 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-139 makeStyles-headerContainer-91 makeStyles-row-117"
+    data-testid="Header"
+  >
+    <div
+      class="MuiContainer-root makeStyles-container-89"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-140 makeStyles-row-117 makeStyles-headerContentBox-92"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-141 makeStyles-menuIconContainer-98"
+          data-testid="MenuIconContainer"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-menuIcon-97"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-142 makeStyles-logoBox-106 makeStyles-logoBox-109"
+        >
+          <img
+            class="makeStyles-logo-107"
+            src="logo.png"
+          />
+        </div>
+        <h2
+          class="MuiTypography-root makeStyles-title-90 makeStyles-title-108 MuiTypography-h2"
+        >
+          Customer Dashboard
+        </h2>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-149 makeStyles-column-119"
+        data-testid="LoanSelectButton"
+      />
+    </div>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root-150 makeStyles-headerSpacer-95"
+  />
+  <div
+    class="MuiBox-root MuiBox-root-151 makeStyles-headerBottomWrapp-93 makeStyles-screenPaddingOn-130 makeStyles-row-117"
+  >
+    <div
+      class="MuiContainer-root makeStyles-headerBottomContainer-94"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-152 makeStyles-row-117"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-162 makeStyles-row-117 makeStyles-desktopMenuItem-153 makeStyles-leftMenu-154"
+          data-testid="NavigationMenuItem-desktop"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-163 makeStyles-iconContainer-157 makeStyles-column-119 makeStyles-icon-160"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-bottomMenuIcon-102"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root makeStyles-itemName-158 MuiTypography-body1"
+          >
+            Loan Overview
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-164 makeStyles-row-117 makeStyles-desktopMenuItem-153 makeStyles-leftMenu-154"
+          data-testid="NavigationMenuItem-desktop"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-165 makeStyles-iconContainer-157 makeStyles-column-119 makeStyles-icon-160"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-bottomMenuIcon-102"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M4 10h3v7H4zM10.5 10h3v7h-3zM2 19h20v3H2zM17 10h3v7h-3zM12 1L2 6v2h20V6z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root makeStyles-itemName-158 MuiTypography-body1"
+          >
+            Balance Detail
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-166 makeStyles-row-117 makeStyles-desktopMenuItem-153 makeStyles-leftMenu-154"
+          data-testid="NavigationMenuItem-desktop"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-167 makeStyles-iconContainer-157 makeStyles-column-119 makeStyles-icon-160"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-bottomMenuIcon-102"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root makeStyles-itemName-158 MuiTypography-body1"
+          >
+            Payment History
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-168 makeStyles-row-117 makeStyles-desktopMenuItem-153 makeStyles-leftMenu-154"
+          data-testid="NavigationMenuItem-desktop"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-169 makeStyles-iconContainer-157 makeStyles-column-119 makeStyles-icon-160"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-bottomMenuIcon-102"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m1.1-2H3.9c-.5 0-.9.4-.9.9v16.2c0 .4.4.9.9.9h16.2c.4 0 .9-.5.9-.9V3.9c0-.5-.5-.9-.9-.9zM11 7h6v2h-6V7zm0 4h6v2h-6v-2zm0 4h6v2h-6zM7 7h2v2H7zm0 4h2v2H7zm0 4h2v2H7z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root makeStyles-itemName-158 MuiTypography-body1"
+          >
+            Statements
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-170 makeStyles-row-117 makeStyles-menuItemsRightBox-100"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-171 makeStyles-row-117 makeStyles-desktopMenuItem-153 makeStyles-leftMenu-154"
+          data-testid="NavigationMenuItem-desktop"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-172 makeStyles-iconContainer-157 makeStyles-column-119 makeStyles-icon-160"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-menuIcon-97"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root makeStyles-itemName-158 MuiTypography-body1"
+          >
+            Preferences
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-173 makeStyles-row-117 makeStyles-desktopMenuItem-153 makeStyles-leftMenu-154"
+          data-testid="NavigationMenuItem-desktop"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-174 makeStyles-iconContainer-157 makeStyles-column-119 makeStyles-icon-160"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-menuIcon-97"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10.09 15.59L11.5 17l5-5-5-5-1.41 1.41L12.67 11H3v2h9.67l-2.58 2.59zM19 3H5c-1.11 0-2 .9-2 2v4h2V5h14v14H5v-4H3v4c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root makeStyles-itemName-158 MuiTypography-body1"
+          >
+            Log Out
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-175 makeStyles-menuIconRightBox-101"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root makeStyles-menuIcon-97"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root-176 makeStyles-headerBottomSpacer-96"
+  />
+</div>
+`;

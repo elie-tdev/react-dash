@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination Renders 1`] = `
+<div>
+  <div
+    class="makeStyles-root-1"
+    data-testid="Pagination"
+  >
+    <button
+      class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-rounded makeStyles-previousNext-3 Mui-disabled Mui-disabled"
+      disabled=""
+      tabindex="-1"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiPaginationItem-icon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+        />
+      </svg>
+    </button>
+    <ul
+      class="makeStyles-ul-2"
+    >
+      <li
+        class="makeStyles-li-4"
+        data-testid="PaginationItem"
+      >
+        <button
+          aria-current="true"
+          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page makeStyles-page-5 MuiPaginationItem-rounded Mui-selected"
+          tabindex="0"
+          type="button"
+        >
+          1
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </li>
+      <li
+        class="makeStyles-li-4"
+        data-testid="PaginationItem"
+      >
+        <button
+          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page makeStyles-page-5 MuiPaginationItem-rounded"
+          tabindex="0"
+          type="button"
+        >
+          2
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </li>
+      <li
+        class="makeStyles-li-4"
+        data-testid="PaginationItem"
+      >
+        <button
+          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page makeStyles-page-5 MuiPaginationItem-rounded"
+          tabindex="0"
+          type="button"
+        >
+          3
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </li>
+      <li
+        class="makeStyles-li-4"
+        data-testid="PaginationItem"
+      >
+        <button
+          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page makeStyles-page-5 MuiPaginationItem-rounded"
+          tabindex="0"
+          type="button"
+        >
+          4
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </li>
+      <li
+        class="makeStyles-li-4"
+        data-testid="PaginationItem"
+      >
+        <button
+          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page makeStyles-page-5 MuiPaginationItem-rounded"
+          tabindex="0"
+          type="button"
+        >
+          5
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </li>
+      <li
+        class="makeStyles-li-4"
+        data-testid="PaginationItem"
+      >
+        <div
+          class="makeStyles-moreContainer-6"
+        >
+          <div
+            class="makeStyles-moreIconContainer-7"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-moreIcon-8"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+              />
+            </svg>
+          </div>
+        </div>
+      </li>
+      <li
+        class="makeStyles-li-4"
+        data-testid="PaginationItem"
+      >
+        <button
+          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page makeStyles-page-5 MuiPaginationItem-rounded"
+          tabindex="0"
+          type="button"
+        >
+          10
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </li>
+    </ul>
+    <button
+      class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-rounded makeStyles-previousNext-3"
+      tabindex="0"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiPaginationItem-icon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+        />
+      </svg>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;

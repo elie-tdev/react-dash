@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MobileMenuItem renders 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-37 makeStyles-row-15 makeStyles-menuItem-1"
+    data-testid="NavigationMenuItem-mobile"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-38 makeStyles-iconContainer-3 makeStyles-column-17 makeStyles-icon-6"
+    />
+    <p
+      class="MuiTypography-root makeStyles-itemName-4 MuiTypography-body1"
+    />
+  </div>
+</div>
+`;
+
+exports[`MobileMenuItem renders with an active item name 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-75 makeStyles-row-53 makeStyles-menuItem-39"
+    data-testid="NavigationMenuItem-mobile"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-76 makeStyles-iconContainer-41 makeStyles-column-55 makeStyles-activeIcon-45"
+    />
+    <p
+      class="MuiTypography-root makeStyles-itemName-42 makeStyles-activeItemName-43 MuiTypography-body1"
+    />
+  </div>
+</div>
+`;

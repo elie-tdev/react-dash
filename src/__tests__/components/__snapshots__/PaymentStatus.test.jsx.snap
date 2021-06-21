@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentStatus Renders 1`] = `
+<div>
+  <div
+    class="MuiChip-root MuiChip-sizeSmall"
+    data-testid="PaymentStatus"
+  >
+    <span
+      class="MuiChip-label MuiChip-labelSmall"
+    />
+  </div>
+</div>
+`;

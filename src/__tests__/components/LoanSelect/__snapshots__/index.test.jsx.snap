@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoanSelect Renders a single loan 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-36 makeStyles-column-16"
+    data-testid="LoanSelectButton"
+  />
+</div>
+`;
+
+exports[`LoanSelect Renders multiple loans 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-72 makeStyles-column-52"
+    data-testid="LoanSelectButton"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root makeStyles-root-73 makeStyles-root-74 MuiButton-contained MuiButton-disableElevation MuiButton-fullWidth"
+      data-testid="SecondaryButton"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        
+        <span
+          class="MuiButton-endIcon MuiButton-iconSizeMedium"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+            />
+          </svg>
+        </span>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`LoanSelect onClick of select 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-110 makeStyles-column-90"
+    data-testid="LoanSelectButton"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root makeStyles-root-111 makeStyles-root-112 MuiButton-outlined MuiButton-disableElevation MuiButton-fullWidth"
+      data-testid="SecondaryButton"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        
+        <span
+          class="MuiButton-endIcon MuiButton-iconSizeMedium"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"
+            />
+          </svg>
+        </span>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root-113 makeStyles-column-90 makeStyles-screenPaddingOn-101 makeStyles-switcher-80"
+    data-testid="LoanSelectMenu"
+  >
+    <div
+      class="MuiPaper-root MuiCard-root makeStyles-card-84 MuiPaper-elevation15 MuiPaper-rounded"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-114 makeStyles-accountsCardContent-78 makeStyles-column-90"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-123 makeStyles-column-90 makeStyles-accountItem-115 makeStyles-cardBackground-99"
+          data-testid="LoanSelectItem"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-124 makeStyles-row-88 makeStyles-topRow-120"
+          >
+            <p
+              class="MuiTypography-root makeStyles-accountNumber-116 makeStyles-accountNumberActive-117 MuiTypography-body1"
+            />
+            <div
+              class="makeStyles-accountRadio-121 makeStyles-accountRadioActive-122"
+            />
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-125 makeStyles-row-88"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-131 makeStyles-container-129"
+              data-testid="LabelValueColumn"
+            >
+              <h6
+                class="MuiTypography-root makeStyles-labelStyle-118 MuiTypography-h6"
+              >
+                Remaining Balance
+              </h6>
+              <p
+                class="MuiTypography-root makeStyles-value-126 makeStyles-value-130 makeStyles-valueSmall-128 makeStyles-valueStyle-119 MuiTypography-body1"
+              >
+                $10,000.00
+              </p>
+            </div>
+            <div
+              class="MuiBox-root MuiBox-root-133 makeStyles-container-129"
+              data-testid="LabelValueColumn"
+            >
+              <h6
+                class="MuiTypography-root makeStyles-labelStyle-118 MuiTypography-h6"
+              >
+                Amount Due
+              </h6>
+              <p
+                class="MuiTypography-root makeStyles-value-126 makeStyles-value-132 makeStyles-valueSmall-128 makeStyles-valueStyle-119 MuiTypography-body1"
+              >
+                $500.00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-134 makeStyles-column-90 makeStyles-accountItem-115 makeStyles-cardBackground-99"
+          data-testid="LoanSelectItem"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-135 makeStyles-row-88 makeStyles-topRow-120"
+          >
+            <p
+              class="MuiTypography-root makeStyles-accountNumber-116 makeStyles-accountNumberActive-117 MuiTypography-body1"
+            />
+            <div
+              class="makeStyles-accountRadio-121 makeStyles-accountRadioActive-122"
+            />
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-136 makeStyles-row-88"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-138 makeStyles-container-129"
+              data-testid="LabelValueColumn"
+            >
+              <h6
+                class="MuiTypography-root makeStyles-labelStyle-118 MuiTypography-h6"
+              >
+                Remaining Balance
+              </h6>
+              <p
+                class="MuiTypography-root makeStyles-value-126 makeStyles-value-137 makeStyles-valueSmall-128 makeStyles-valueStyle-119 MuiTypography-body1"
+              >
+                $10,000.00
+              </p>
+            </div>
+            <div
+              class="MuiBox-root MuiBox-root-140 makeStyles-container-129"
+              data-testid="LabelValueColumn"
+            >
+              <h6
+                class="MuiTypography-root makeStyles-labelStyle-118 MuiTypography-h6"
+              >
+                Amount Due
+              </h6>
+              <p
+                class="MuiTypography-root makeStyles-value-126 makeStyles-value-139 makeStyles-valueSmall-128 makeStyles-valueStyle-119 MuiTypography-body1"
+              >
+                $500.00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

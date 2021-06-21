@@ -1,0 +1,1085 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Balance Screen renders Balance screen 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-74"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-96 makeStyles-headerContainer-77 makeStyles-row-50"
+      data-testid="Header"
+    >
+      <div
+        class="MuiContainer-root makeStyles-container-75"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-97 makeStyles-row-50 makeStyles-headerContentBox-78"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-98 makeStyles-menuIconContainer-84"
+            data-testid="MenuIconContainer"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-menuIcon-83"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-99 makeStyles-logoBox-92 makeStyles-logoBox-95"
+          >
+            <img
+              class="makeStyles-logo-93"
+              src="logo.png"
+            />
+          </div>
+          <h2
+            class="MuiTypography-root makeStyles-title-76 makeStyles-title-94 MuiTypography-h2"
+          >
+            Customer Dashboard
+          </h2>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-106 makeStyles-column-52"
+          data-testid="LoanSelectButton"
+        />
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-107 makeStyles-headerSpacer-81"
+    />
+    <div
+      class="MuiBox-root MuiBox-root-108 makeStyles-headerBottomWrapp-79 makeStyles-screenPaddingOn-63 makeStyles-row-50"
+    >
+      <div
+        class="MuiContainer-root makeStyles-headerBottomContainer-80"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-109 makeStyles-row-50"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-119 makeStyles-row-50 makeStyles-desktopMenuItem-110 makeStyles-leftMenu-111"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-120 makeStyles-iconContainer-114 makeStyles-column-52 makeStyles-icon-117"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-bottomMenuIcon-88"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-115 MuiTypography-body1"
+            >
+              Loan Overview
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-121 makeStyles-row-50 makeStyles-desktopMenuItem-110 makeStyles-leftMenu-111"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-122 makeStyles-iconContainer-114 makeStyles-column-52 makeStyles-icon-117"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-bottomMenuIcon-88"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M4 10h3v7H4zM10.5 10h3v7h-3zM2 19h20v3H2zM17 10h3v7h-3zM12 1L2 6v2h20V6z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-115 MuiTypography-body1"
+            >
+              Balance Detail
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-123 makeStyles-row-50 makeStyles-desktopMenuItem-110 makeStyles-leftMenu-111"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-124 makeStyles-iconContainer-114 makeStyles-column-52 makeStyles-icon-117"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-bottomMenuIcon-88"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-115 MuiTypography-body1"
+            >
+              Payment History
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-125 makeStyles-row-50 makeStyles-desktopMenuItem-110 makeStyles-leftMenu-111"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-126 makeStyles-iconContainer-114 makeStyles-column-52 makeStyles-icon-117"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-bottomMenuIcon-88"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 5v14H5V5h14m1.1-2H3.9c-.5 0-.9.4-.9.9v16.2c0 .4.4.9.9.9h16.2c.4 0 .9-.5.9-.9V3.9c0-.5-.5-.9-.9-.9zM11 7h6v2h-6V7zm0 4h6v2h-6v-2zm0 4h6v2h-6zM7 7h2v2H7zm0 4h2v2H7zm0 4h2v2H7z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-115 MuiTypography-body1"
+            >
+              Statements
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-127 makeStyles-row-50 makeStyles-menuItemsRightBox-86"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-128 makeStyles-row-50 makeStyles-desktopMenuItem-110 makeStyles-leftMenu-111"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-129 makeStyles-iconContainer-114 makeStyles-column-52 makeStyles-icon-117"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-menuIcon-83"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-115 MuiTypography-body1"
+            >
+              Preferences
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-130 makeStyles-row-50 makeStyles-desktopMenuItem-110 makeStyles-leftMenu-111"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-131 makeStyles-iconContainer-114 makeStyles-column-52 makeStyles-icon-117"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-menuIcon-83"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10.09 15.59L11.5 17l5-5-5-5-1.41 1.41L12.67 11H3v2h9.67l-2.58 2.59zM19 3H5c-1.11 0-2 .9-2 2v4h2V5h14v14H5v-4H3v4c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-115 MuiTypography-body1"
+            >
+              Log Out
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-132 makeStyles-menuIconRightBox-87"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-menuIcon-83"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-133 makeStyles-headerBottomSpacer-82"
+    />
+    <div
+      class="MuiBox-root MuiBox-root-134 makeStyles-screenPaddingOff-62 makeStyles-elevatedBox-72 makeStyles-withMinHeight-73"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-138 makeStyles-contentBox-136 makeStyles-contentBox-137"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-139 makeStyles-childrenBox-135"
+        >
+          <div
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+            role="progressbar"
+            style="width: 40px; height: 40px;"
+          >
+            <svg
+              class="MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                cx="44"
+                cy="44"
+                fill="none"
+                r="20.2"
+                stroke-width="3.6"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-159 makeStyles-root-140"
+      data-testid="Footer"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+      >
+        <div
+          class="MuiGrid-root makeStyles-gridContainer-160 makeStyles-gridContainer-161 makeStyles-mainGridContainer-151 MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root makeStyles-desktopLogoContainer-150 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-3"
+          >
+            <img
+              class="makeStyles-logo-141 makeStyles-logo-162"
+              src="logo.png"
+            />
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-163 makeStyles-menuBox-154"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuHeadTitle-142 MuiTypography-h4"
+              >
+                FreedomPlus
+              </h4>
+              <div
+                class="MuiBox-root MuiBox-root-164 makeStyles-menuList-156"
+              >
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-148 MuiTypography-colorPrimary"
+                  href="https://www.freedomplus.com/privacypolicy/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-165 makeStyles-root-166 MuiButton-contained makeStyles-menuItemButton-149 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-143 MuiTypography-h4"
+                      >
+                        Privacy Notice
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-148 MuiTypography-colorPrimary"
+                  href="https://www.freedomplus.com/california-privacy-notice/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-165 makeStyles-root-167 MuiButton-contained makeStyles-menuItemButton-149 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-143 MuiTypography-h4"
+                      >
+                        California Privacy Notice
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-148 MuiTypography-colorPrimary"
+                  href="https://www.freedomplus.com/termsofuse"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-165 makeStyles-root-168 MuiButton-contained makeStyles-menuItemButton-149 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-143 MuiTypography-h4"
+                      >
+                        Terms of Use
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr
+            class="MuiDivider-root makeStyles-divider-155"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-169 makeStyles-menuBox-154"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuHeadTitle-142 MuiTypography-h4"
+              >
+                Consolidation Plus
+              </h4>
+              <div
+                class="MuiBox-root MuiBox-root-170 makeStyles-menuList-156"
+              >
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-148 MuiTypography-colorPrimary"
+                  href="https://consolplus.com/privacy-notice/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-165 makeStyles-root-171 MuiButton-contained makeStyles-menuItemButton-149 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-143 MuiTypography-h4"
+                      >
+                        Privacy Notice
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-148 MuiTypography-colorPrimary"
+                  href="https://consolplus.com/california-privacy-notice/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-165 makeStyles-root-172 MuiButton-contained makeStyles-menuItemButton-149 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-143 MuiTypography-h4"
+                      >
+                        California Privacy Notice
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr
+            class="MuiDivider-root makeStyles-divider-155"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-173 makeStyles-menuBox-154"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuHeadTitle-142 MuiTypography-h4"
+              >
+                Mailing Address
+              </h4>
+              <div
+                class="MuiBox-root MuiBox-root-174 makeStyles-menuList-156"
+              >
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-144 MuiTypography-h4"
+                >
+                  Main Office
+                </h4>
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-144 MuiTypography-h4"
+                >
+                  2114 E Rio Salado Blvd
+                </h4>
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-144 MuiTypography-h4"
+                >
+                  Tempe, AZ 85281
+                </h4>
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-144 MuiTypography-h4"
+                >
+                   PO Box 2340
+                </h4>
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-144 MuiTypography-h4"
+                >
+                  Phoenix, AZ 85002-2340
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+      >
+        <div
+          class="MuiGrid-root makeStyles-gridContainer-160 makeStyles-gridContainer-175 MuiGrid-container MuiGrid-spacing-xs-3"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item makeStyles-menuBottomWrap-145 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-12"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-176 makeStyles-bottomLogoBox-152"
+            >
+              <img
+                class="makeStyles-logo-141 makeStyles-logo-177"
+                src="logo.png"
+              />
+            </div>
+            <div
+              class="MuiBox-root MuiBox-root-178 makeStyles-bottomCopyrightBox-153"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuBottomDescription-146 MuiTypography-h4"
+              >
+                © 2021 Freedom Financial Asset Management, LLC. All Rights Reserved.
+              </h4>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiButton-root makeStyles-root-165 makeStyles-root-179 MuiButton-contained makeStyles-button-147 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+              data-testid="SecondaryButton"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Contact Us
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Balance Screen renders Past Due component if pastDueDays > 0 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-253"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-275 makeStyles-headerContainer-256 makeStyles-row-229"
+      data-testid="Header"
+    >
+      <div
+        class="MuiContainer-root makeStyles-container-254"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-276 makeStyles-row-229 makeStyles-headerContentBox-257"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-277 makeStyles-menuIconContainer-263"
+            data-testid="MenuIconContainer"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-menuIcon-262"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-278 makeStyles-logoBox-271 makeStyles-logoBox-274"
+          >
+            <img
+              class="makeStyles-logo-272"
+              src="logo.png"
+            />
+          </div>
+          <h2
+            class="MuiTypography-root makeStyles-title-255 makeStyles-title-273 MuiTypography-h2"
+          >
+            Customer Dashboard
+          </h2>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-285 makeStyles-column-231"
+          data-testid="LoanSelectButton"
+        />
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-286 makeStyles-headerSpacer-260"
+    />
+    <div
+      class="MuiBox-root MuiBox-root-287 makeStyles-headerBottomWrapp-258 makeStyles-screenPaddingOn-242 makeStyles-row-229"
+    >
+      <div
+        class="MuiContainer-root makeStyles-headerBottomContainer-259"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-288 makeStyles-row-229"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-298 makeStyles-row-229 makeStyles-desktopMenuItem-289 makeStyles-leftMenu-290"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-299 makeStyles-iconContainer-293 makeStyles-column-231 makeStyles-icon-296"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-bottomMenuIcon-267"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-294 MuiTypography-body1"
+            >
+              Loan Overview
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-300 makeStyles-row-229 makeStyles-desktopMenuItem-289 makeStyles-leftMenu-290"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-301 makeStyles-iconContainer-293 makeStyles-column-231 makeStyles-icon-296"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-bottomMenuIcon-267"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M4 10h3v7H4zM10.5 10h3v7h-3zM2 19h20v3H2zM17 10h3v7h-3zM12 1L2 6v2h20V6z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-294 MuiTypography-body1"
+            >
+              Balance Detail
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-302 makeStyles-row-229 makeStyles-desktopMenuItem-289 makeStyles-leftMenu-290"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-303 makeStyles-iconContainer-293 makeStyles-column-231 makeStyles-icon-296"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-bottomMenuIcon-267"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-294 MuiTypography-body1"
+            >
+              Payment History
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-304 makeStyles-row-229 makeStyles-desktopMenuItem-289 makeStyles-leftMenu-290"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-305 makeStyles-iconContainer-293 makeStyles-column-231 makeStyles-icon-296"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-bottomMenuIcon-267"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 5v14H5V5h14m1.1-2H3.9c-.5 0-.9.4-.9.9v16.2c0 .4.4.9.9.9h16.2c.4 0 .9-.5.9-.9V3.9c0-.5-.5-.9-.9-.9zM11 7h6v2h-6V7zm0 4h6v2h-6v-2zm0 4h6v2h-6zM7 7h2v2H7zm0 4h2v2H7zm0 4h2v2H7z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-294 MuiTypography-body1"
+            >
+              Statements
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-306 makeStyles-row-229 makeStyles-menuItemsRightBox-265"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-307 makeStyles-row-229 makeStyles-desktopMenuItem-289 makeStyles-leftMenu-290"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-308 makeStyles-iconContainer-293 makeStyles-column-231 makeStyles-icon-296"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-menuIcon-262"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-294 MuiTypography-body1"
+            >
+              Preferences
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-309 makeStyles-row-229 makeStyles-desktopMenuItem-289 makeStyles-leftMenu-290"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-310 makeStyles-iconContainer-293 makeStyles-column-231 makeStyles-icon-296"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-menuIcon-262"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10.09 15.59L11.5 17l5-5-5-5-1.41 1.41L12.67 11H3v2h9.67l-2.58 2.59zM19 3H5c-1.11 0-2 .9-2 2v4h2V5h14v14H5v-4H3v4c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-294 MuiTypography-body1"
+            >
+              Log Out
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-311 makeStyles-menuIconRightBox-266"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-menuIcon-262"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-312 makeStyles-headerBottomSpacer-261"
+    />
+    <div
+      class="MuiBox-root MuiBox-root-313 makeStyles-screenPaddingOff-241 makeStyles-elevatedBox-251 makeStyles-withMinHeight-252"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-317 makeStyles-contentBox-315 makeStyles-contentBox-316"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-318 makeStyles-childrenBox-314"
+        >
+          <div
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+            role="progressbar"
+            style="width: 40px; height: 40px;"
+          >
+            <svg
+              class="MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                cx="44"
+                cy="44"
+                fill="none"
+                r="20.2"
+                stroke-width="3.6"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-338 makeStyles-root-319"
+      data-testid="Footer"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+      >
+        <div
+          class="MuiGrid-root makeStyles-gridContainer-339 makeStyles-gridContainer-340 makeStyles-mainGridContainer-330 MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root makeStyles-desktopLogoContainer-329 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-3"
+          >
+            <img
+              class="makeStyles-logo-320 makeStyles-logo-341"
+              src="logo.png"
+            />
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-342 makeStyles-menuBox-333"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuHeadTitle-321 MuiTypography-h4"
+              >
+                FreedomPlus
+              </h4>
+              <div
+                class="MuiBox-root MuiBox-root-343 makeStyles-menuList-335"
+              >
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-327 MuiTypography-colorPrimary"
+                  href="https://www.freedomplus.com/privacypolicy/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-344 makeStyles-root-345 MuiButton-contained makeStyles-menuItemButton-328 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-322 MuiTypography-h4"
+                      >
+                        Privacy Notice
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-327 MuiTypography-colorPrimary"
+                  href="https://www.freedomplus.com/california-privacy-notice/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-344 makeStyles-root-346 MuiButton-contained makeStyles-menuItemButton-328 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-322 MuiTypography-h4"
+                      >
+                        California Privacy Notice
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-327 MuiTypography-colorPrimary"
+                  href="https://www.freedomplus.com/termsofuse"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-344 makeStyles-root-347 MuiButton-contained makeStyles-menuItemButton-328 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-322 MuiTypography-h4"
+                      >
+                        Terms of Use
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr
+            class="MuiDivider-root makeStyles-divider-334"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-348 makeStyles-menuBox-333"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuHeadTitle-321 MuiTypography-h4"
+              >
+                Consolidation Plus
+              </h4>
+              <div
+                class="MuiBox-root MuiBox-root-349 makeStyles-menuList-335"
+              >
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-327 MuiTypography-colorPrimary"
+                  href="https://consolplus.com/privacy-notice/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-344 makeStyles-root-350 MuiButton-contained makeStyles-menuItemButton-328 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-322 MuiTypography-h4"
+                      >
+                        Privacy Notice
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-327 MuiTypography-colorPrimary"
+                  href="https://consolplus.com/california-privacy-notice/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-344 makeStyles-root-351 MuiButton-contained makeStyles-menuItemButton-328 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-322 MuiTypography-h4"
+                      >
+                        California Privacy Notice
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr
+            class="MuiDivider-root makeStyles-divider-334"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-352 makeStyles-menuBox-333"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuHeadTitle-321 MuiTypography-h4"
+              >
+                Mailing Address
+              </h4>
+              <div
+                class="MuiBox-root MuiBox-root-353 makeStyles-menuList-335"
+              >
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-323 MuiTypography-h4"
+                >
+                  Main Office
+                </h4>
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-323 MuiTypography-h4"
+                >
+                  2114 E Rio Salado Blvd
+                </h4>
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-323 MuiTypography-h4"
+                >
+                  Tempe, AZ 85281
+                </h4>
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-323 MuiTypography-h4"
+                >
+                   PO Box 2340
+                </h4>
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-323 MuiTypography-h4"
+                >
+                  Phoenix, AZ 85002-2340
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+      >
+        <div
+          class="MuiGrid-root makeStyles-gridContainer-339 makeStyles-gridContainer-354 MuiGrid-container MuiGrid-spacing-xs-3"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item makeStyles-menuBottomWrap-324 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-12"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-355 makeStyles-bottomLogoBox-331"
+            >
+              <img
+                class="makeStyles-logo-320 makeStyles-logo-356"
+                src="logo.png"
+              />
+            </div>
+            <div
+              class="MuiBox-root MuiBox-root-357 makeStyles-bottomCopyrightBox-332"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuBottomDescription-325 MuiTypography-h4"
+              >
+                © 2021 Freedom Financial Asset Management, LLC. All Rights Reserved.
+              </h4>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiButton-root makeStyles-root-344 makeStyles-root-358 MuiButton-contained makeStyles-button-326 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+              data-testid="SecondaryButton"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Contact Us
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

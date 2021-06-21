@@ -1,0 +1,521 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnrollInAutoPay Component renders EnrollInAutoPay 1`] = `
+<div
+  aria-hidden="true"
+>
+  <div
+    class="MuiPaper-root MuiCard-root makeStyles-card-8 makeStyles-card-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-34 makeStyles-box-2"
+    >
+      <h1
+        class="MuiTypography-root makeStyles-title-3 MuiTypography-h1"
+      >
+        Enroll in AutoPay and never miss a payment again.
+      </h1>
+      <button
+        class="MuiButtonBase-root MuiButton-root makeStyles-root-35 makeStyles-root-36 MuiButton-text makeStyles-button-4 MuiButton-textSizeLarge MuiButton-sizeLarge MuiButton-disableElevation"
+        data-testid="PrimaryButton"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Enroll in AutoPay
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        >
+          <span
+            class="MuiTouchRipple-ripple MuiTouchRipple-rippleVisible"
+            style="width: 2.8284271247461903px; height: 2.8284271247461903px; top: -1.4142135623730951px; left: -1.4142135623730951px;"
+          >
+            <span
+              class="MuiTouchRipple-child MuiTouchRipple-childLeaving"
+            />
+          </span>
+        </span>
+      </button>
+    </div>
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root makeStyles-backdrop-32"
+      style="opacity: 1; webkit-transition: -webkit-transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; transition: transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; webkit-transform: none; transform: none;"
+    >
+      <div
+        class="MuiDrawer-root makeStyles-root-50 MuiDrawer-modal"
+        id="submitPaymenModalt"
+        role="presentation"
+        style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+      >
+        <div
+          aria-hidden="true"
+          class="MuiBackdrop-root"
+          style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+        />
+        <div
+          data-test="sentinelStart"
+          tabindex="0"
+        />
+        <div
+          class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorBottom makeStyles-modalPaper-33 MuiPaper-elevation16"
+          data-testid="SubmitPayment"
+          tabindex="-1"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-61 makeStyles-headerAutoPay-52 makeStyles-row-12"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-62"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-headerTitle-55 MuiTypography-body1"
+            >
+              Enroll in AutoPay
+            </p>
+            <div
+              class="MuiBox-root MuiBox-root-63"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-infoButton-54"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-64"
+          >
+            <div
+              class="MuiDialogContent-root makeStyles-dialogContent-58"
+            >
+              <div
+                class="MuiBox-root MuiBox-root-194 makeStyles-fauxInputField-69 makeStyles-fauxInputFieldDisabled-70"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+                >
+                  Recurring Payment Amount
+                </p>
+                <p
+                  class="MuiTypography-root makeStyles-fauxFloatRight-72 MuiTypography-body1"
+                />
+                <br />
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextPrimary"
+                />
+              </div>
+              <div
+                class="MuiBox-root MuiBox-root-76 makeStyles-fauxInputField-69 makeStyles-fauxInputFieldDisabled-70"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+                >
+                  Payment Frequency
+                </p>
+                <p
+                  class="MuiTypography-root makeStyles-fauxFloatRight-72 MuiTypography-body1"
+                />
+                <br />
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextPrimary"
+                />
+                <br />
+                <p
+                  class="MuiTypography-root makeStyles-quaternary-75 MuiTypography-body1 MuiTypography-colorTextSecondary"
+                >
+                  Next payment will be made on May 18, 2021
+                </p>
+              </div>
+              <div
+                class="MuiBox-root MuiBox-root-195 makeStyles-fauxInputField-69"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+                >
+                  Pay From
+                </p>
+                <p
+                  class="MuiTypography-root makeStyles-fauxFloatRight-72 MuiTypography-body1"
+                />
+                <br />
+                <p
+                  class="MuiTypography-root makeStyles-addAccount-41 MuiTypography-body1 MuiTypography-colorTextPrimary"
+                >
+                  Add Account
+                </p>
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root WithStyles(ForwardRef(IconButton))-root-196 makeStyles-iconButtonFilled-73 MuiIconButton-sizeSmall"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-helperText-39 MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              While enrolled in AutoPay, we'll automatically charge your payment amount on the due date. Your payment amount and payment date reflect your billing statements.
+            </p>
+            <p
+              class="MuiTypography-root makeStyles-helperText-39 MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              There is a $15 fee for any ACH debit not honored by your bank
+              .
+            </p>
+            <div
+              class="MuiBox-root MuiBox-root-197 makeStyles-confirmingBox-38"
+            />
+          </div>
+        </div>
+        <div
+          data-test="sentinelEnd"
+          tabindex="0"
+        />
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root makeStyles-confirmPanelBackdrop-93"
+      style="opacity: 0; visibility: hidden;"
+    />
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root makeStyles-confirmPanelBackdrop-104"
+      style="opacity: 0; visibility: hidden;"
+    />
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root makeStyles-confirmPanelBackdrop-116"
+      style="opacity: 0; visibility: hidden;"
+    />
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root makeStyles-confirmPanelBackdrop-120"
+      style="opacity: 0; visibility: hidden;"
+    />
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root makeStyles-confirmPanelBackdrop-132"
+      style="opacity: 0; visibility: hidden;"
+    />
+    <div
+      aria-hidden="true"
+      class="MuiDrawer-root MuiDrawer-modal makeStyles-confirmPanelRoot-143"
+      role="presentation"
+      style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px; visibility: hidden;"
+    >
+      <div
+        aria-hidden="true"
+        class="MuiBackdrop-root"
+        style="opacity: 0; visibility: hidden;"
+      />
+      <div
+        data-test="sentinelStart"
+        tabindex="0"
+      />
+      <div
+        class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorBottom makeStyles-modalPaper-33 MuiPaper-elevation16"
+        style="visibility: hidden; webkit-transform: translateY(768px) translateY(0px); transform: translateY(768px) translateY(0px);"
+        tabindex="-1"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-152 makeStyles-header-148 makeStyles-row-12"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-153 makeStyles-arrowBackBox-150"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root makeStyles-headerTitle-149 MuiTypography-body1"
+          >
+            New Payment Account
+          </p>
+          <div
+            class="MuiBox-root MuiBox-root-154"
+          />
+        </div>
+        <hr
+          class="MuiDivider-root"
+        />
+        <div
+          class="MuiDialogContent-root"
+        >
+          <div
+            class="MuiFormControl-root makeStyles-inputField-139 MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root makeStyles-inputLabel-140 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+              data-shrink="true"
+            >
+              Routing Number
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root makeStyles-newPaymentMethodInput-141 MuiInputBase-fullWidth MuiInputBase-formControl"
+              variant="outlined"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="routingNum"
+                placeholder="Routing Number"
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-155 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-157"
+                >
+                  <span>
+                    Routing Number
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+          <div
+            class="MuiFormControl-root makeStyles-inputField-139 MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root makeStyles-inputLabel-140 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+              data-shrink="true"
+            >
+              Account Number
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root makeStyles-newPaymentMethodInput-141 MuiInputBase-fullWidth MuiInputBase-formControl"
+              variant="outlined"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="accountNum"
+                placeholder="Account Number"
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-155 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-157"
+                >
+                  <span>
+                    Account Number
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+          <div
+            class="MuiFormControl-root makeStyles-inputField-139 MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root makeStyles-inputLabel-140 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+              data-shrink="true"
+            >
+              Verify Account Number
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root makeStyles-newPaymentMethodInput-141 MuiInputBase-fullWidth MuiInputBase-formControl"
+              variant="outlined"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="accountNumVerify"
+                placeholder="Verify Account Number"
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-155 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-157"
+                >
+                  <span>
+                    Verify Account Number
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+          <div
+            class="MuiFormControl-root makeStyles-inputFieldLast-144 MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root makeStyles-inputFieldLastLabel-145 makeStyles-inputLabel-140 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+              data-shrink="true"
+            >
+              Account Type
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            >
+              <div
+                aria-haspopup="listbox"
+                class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                role="button"
+                tabindex="0"
+              >
+                <span>
+                  ​
+                </span>
+              </div>
+              <input
+                aria-hidden="true"
+                class="MuiSelect-nativeInput"
+                tabindex="-1"
+                value=""
+              />
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-155 MuiOutlinedInput-notchedOutline"
+                style="padding-left: 8px;"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legend-156"
+                  style="width: 0.01px;"
+                >
+                  <span>
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-saveAsDefaultCard-146 MuiPaper-elevation0 MuiPaper-rounded"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-159 makeStyles-saveAsDefaultBox-147"
+            >
+              <p
+                class="MuiTypography-root makeStyles-inputLabel-140 MuiTypography-body1"
+              >
+                Save as default payment account
+              </p>
+              <span
+                class="MuiSwitch-root"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-160 MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-checked-161 Mui-checked"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      checked=""
+                      class="PrivateSwitchBase-input-163 MuiSwitch-input"
+                      type="checkbox"
+                      value=""
+                    />
+                    <span
+                      class="MuiSwitch-thumb"
+                    />
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiSwitch-track"
+                />
+              </span>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-164"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root makeStyles-root-35 makeStyles-root-165 MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation Mui-disabled MuiButton-fullWidth Mui-disabled"
+              data-testid="PrimaryButton"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Add New Account
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        data-test="sentinelEnd"
+        tabindex="0"
+      />
+    </div>
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root makeStyles-confirmPanelBackdrop-169"
+      style="opacity: 0; visibility: hidden;"
+    />
+  </div>
+</div>
+`;

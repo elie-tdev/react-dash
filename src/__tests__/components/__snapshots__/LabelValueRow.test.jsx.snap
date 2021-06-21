@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LabelValueRow Component renders LabelValueRow component 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-31 makeStyles-row-9"
+    data-testid="LabelValueRow"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-32 makeStyles-value-1"
+    >
+      <div
+        class="MuiCardContent-root makeStyles-cardContent-6"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6"
+        >
+          Hello
+        </h6>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-33"
+    >
+      <div
+        class="MuiCardContent-root makeStyles-cardContent-6"
+      >
+        <p
+          class="MuiTypography-root makeStyles-value-1 MuiTypography-body1"
+        >
+          World
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

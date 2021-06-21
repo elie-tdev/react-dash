@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CenteredScreenContent Component renders CenteredScreenContent component 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-4 makeStyles-contentBox-2 makeStyles-contentBox-3"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-5 makeStyles-childrenBox-1"
+    >
+      <div>
+        hello
+      </div>
+    </div>
+  </div>
+</div>
+`;

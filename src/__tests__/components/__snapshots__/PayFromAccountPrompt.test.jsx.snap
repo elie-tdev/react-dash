@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pay From Account Prompt renders Pay From Account 1`] = `
+<div>
+  <div
+    aria-hidden="true"
+    class="MuiBackdrop-root makeStyles-confirmPanelBackdrop-2"
+    style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  >
+    <div
+      class="MuiDrawer-root MuiDrawer-docked makeStyles-confirmPanelRoot-4"
+      id="confirmPanel"
+      style="webkit-transform: none; transform: none; webkit-transition: -webkit-transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; transition: transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
+    >
+      <div
+        class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorBottom makeStyles-modalPaper-41 MuiDrawer-paperAnchorDockedBottom MuiPaper-elevation0"
+        data-testid="SubmitPaymentPayFrom"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-42 makeStyles-header-3"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-43"
+          />
+          <div
+            class="MuiDialogContent-root makeStyles-confirmSubTitle-1"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              Pay From
+            </h6>
+          </div>
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-checkIcon-5"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+            />
+          </svg>
+        </div>
+        <hr
+          class="MuiDivider-root"
+        />
+        <div
+          class="MuiDialogContent-root makeStyles-dialogContent-9"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-44"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root makeStyles-root-45 makeStyles-root-46 MuiButton-text MuiButton-textSizeLarge MuiButton-sizeLarge MuiButton-disableElevation"
+              data-testid="PrimaryButton"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                + New Payment Account
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

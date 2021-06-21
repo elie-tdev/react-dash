@@ -1,0 +1,1694 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Statements Screen renders Statements screen with valid data 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-42"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-64 makeStyles-headerContainer-45 makeStyles-row-18"
+      data-testid="Header"
+    >
+      <div
+        class="MuiContainer-root makeStyles-container-43"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-65 makeStyles-row-18 makeStyles-headerContentBox-46"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-66 makeStyles-menuIconContainer-52"
+            data-testid="MenuIconContainer"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root makeStyles-menuIcon-51"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-67 makeStyles-logoBox-60 makeStyles-logoBox-63"
+          >
+            <img
+              class="makeStyles-logo-61"
+              src="logo.png"
+            />
+          </div>
+          <h2
+            class="MuiTypography-root makeStyles-title-44 makeStyles-title-62 MuiTypography-h2"
+          >
+            Customer Dashboard
+          </h2>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-74 makeStyles-column-20"
+          data-testid="LoanSelectButton"
+        />
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-75 makeStyles-headerSpacer-49"
+    />
+    <div
+      class="MuiBox-root MuiBox-root-76 makeStyles-headerBottomWrapp-47 makeStyles-screenPaddingOn-31 makeStyles-row-18"
+    >
+      <div
+        class="MuiContainer-root makeStyles-headerBottomContainer-48"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-77 makeStyles-row-18"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-87 makeStyles-row-18 makeStyles-desktopMenuItem-78 makeStyles-leftMenu-79"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-88 makeStyles-iconContainer-82 makeStyles-column-20 makeStyles-icon-85"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-bottomMenuIcon-56"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-83 MuiTypography-body1"
+            >
+              Loan Overview
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-89 makeStyles-row-18 makeStyles-desktopMenuItem-78 makeStyles-leftMenu-79"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-90 makeStyles-iconContainer-82 makeStyles-column-20 makeStyles-icon-85"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-bottomMenuIcon-56"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M4 10h3v7H4zM10.5 10h3v7h-3zM2 19h20v3H2zM17 10h3v7h-3zM12 1L2 6v2h20V6z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-83 MuiTypography-body1"
+            >
+              Balance Detail
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-91 makeStyles-row-18 makeStyles-desktopMenuItem-78 makeStyles-leftMenu-79"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-92 makeStyles-iconContainer-82 makeStyles-column-20 makeStyles-icon-85"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-bottomMenuIcon-56"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-83 MuiTypography-body1"
+            >
+              Payment History
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-93 makeStyles-row-18 makeStyles-desktopMenuItem-78 makeStyles-leftMenu-79"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-94 makeStyles-iconContainer-82 makeStyles-column-20 makeStyles-icon-85"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-bottomMenuIcon-56"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 5v14H5V5h14m1.1-2H3.9c-.5 0-.9.4-.9.9v16.2c0 .4.4.9.9.9h16.2c.4 0 .9-.5.9-.9V3.9c0-.5-.5-.9-.9-.9zM11 7h6v2h-6V7zm0 4h6v2h-6v-2zm0 4h6v2h-6zM7 7h2v2H7zm0 4h2v2H7zm0 4h2v2H7z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-83 MuiTypography-body1"
+            >
+              Statements
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-95 makeStyles-row-18 makeStyles-menuItemsRightBox-54"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-96 makeStyles-row-18 makeStyles-desktopMenuItem-78 makeStyles-leftMenu-79"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-97 makeStyles-iconContainer-82 makeStyles-column-20 makeStyles-icon-85"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-menuIcon-51"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-83 MuiTypography-body1"
+            >
+              Preferences
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-98 makeStyles-row-18 makeStyles-desktopMenuItem-78 makeStyles-leftMenu-79"
+            data-testid="NavigationMenuItem-desktop"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-99 makeStyles-iconContainer-82 makeStyles-column-20 makeStyles-icon-85"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-menuIcon-51"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10.09 15.59L11.5 17l5-5-5-5-1.41 1.41L12.67 11H3v2h9.67l-2.58 2.59zM19 3H5c-1.11 0-2 .9-2 2v4h2V5h14v14H5v-4H3v4c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-itemName-83 MuiTypography-body1"
+            >
+              Log Out
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-100 makeStyles-menuIconRightBox-55"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-menuIcon-51"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-101 makeStyles-headerBottomSpacer-50"
+    />
+    <div
+      class="MuiBox-root MuiBox-root-102 makeStyles-screenPaddingOff-30 makeStyles-withMinHeight-41"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+      >
+        <div
+          class="MuiGrid-root makeStyles-gridContainer-128 makeStyles-gridContainer-148 MuiGrid-container MuiGrid-spacing-xs-3"
+        >
+          <div
+            class="MuiGrid-root makeStyles-grid-1 MuiGrid-item MuiGrid-grid-xs-12"
+          >
+            <div
+              class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-card-2 MuiPaper-elevation0 MuiPaper-rounded"
+            >
+              <div
+                class="MuiCardContent-root makeStyles-contentTitle-5"
+              >
+                <h1
+                  class="MuiTypography-root makeStyles-statementText-3 MuiTypography-h1"
+                >
+                  Current Statement
+                </h1>
+              </div>
+              <div
+                class="MuiCardContent-root makeStyles-content-4"
+              >
+                <div
+                  class="MuiBox-root MuiBox-root-174"
+                  data-testid="StatementGlance"
+                >
+                  <div
+                    class="MuiPaper-root MuiCard-root makeStyles-card-149 makeStyles-row-18 MuiPaper-elevation2 MuiPaper-rounded"
+                  >
+                    <div
+                      class="MuiCardContent-root makeStyles-content-152 makeStyles-contentLeft-153"
+                    >
+                      <div
+                        class="MuiBox-root MuiBox-root-175 makeStyles-row-18 makeStyles-headerBox-170"
+                      >
+                        <div
+                          class="MuiBox-root MuiBox-root-176 makeStyles-viewLeft-156"
+                        >
+                          <div
+                            class="MuiBox-root MuiBox-root-177 makeStyles-due-26"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root makeStyles-fileIcon-35"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M6 2c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"
+                              />
+                            </svg>
+                            <p
+                              class="MuiTypography-root makeStyles-formattedStatementDate-164 MuiTypography-body1"
+                            >
+                              Nov 21, 2020
+                            </p>
+                          </div>
+                          <div
+                            class="MuiBox-root MuiBox-root-178"
+                          >
+                            <h4
+                              class="MuiTypography-root makeStyles-dateIssued-167 MuiTypography-h4"
+                            >
+                              Date Issued
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiCardContent-root makeStyles-content-152 makeStyles-contentRight-154 makeStyles-row-18"
+                    >
+                      <div
+                        class="MuiBox-root MuiBox-root-179 makeStyles-row-18 makeStyles-mainBox-166"
+                      >
+                        <div
+                          class="MuiBox-root MuiBox-root-180 makeStyles-boxLeft-150"
+                        >
+                          <div
+                            class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                          >
+                            <div
+                              class="MuiCardContent-root makeStyles-cardContent-155"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-186 makeStyles-container-184 makeStyles-container-158"
+                                data-testid="LabelValueColumn"
+                              >
+                                <h6
+                                  class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                >
+                                  Date Due
+                                </h6>
+                                <p
+                                  class="MuiTypography-root makeStyles-value-181 makeStyles-value-185 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                >
+                                  12/09/2020
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="MuiBox-root MuiBox-root-187 makeStyles-boxRight-151"
+                        >
+                          <div
+                            class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                          >
+                            <div
+                              class="MuiCardContent-root makeStyles-cardContent-155"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-189 makeStyles-container-184 makeStyles-container-158"
+                                data-testid="LabelValueColumn"
+                              >
+                                <h6
+                                  class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                >
+                                  Remaining Balance
+                                </h6>
+                                <p
+                                  class="MuiTypography-root makeStyles-value-181 makeStyles-value-188 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                >
+                                  $5,127.37
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="MuiBox-root MuiBox-root-190 makeStyles-boxRight-151 makeStyles-statementidBox-168"
+                        >
+                          <div
+                            class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                          >
+                            <div
+                              class="MuiCardContent-root makeStyles-cardContent-155"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-192 makeStyles-container-184 makeStyles-container-158"
+                                data-testid="LabelValueColumn"
+                              >
+                                <h6
+                                  class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                >
+                                  Statement No.
+                                </h6>
+                                <p
+                                  class="MuiTypography-root makeStyles-value-181 makeStyles-value-191 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                >
+                                  #6532614
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button
+                        class="MuiButtonBase-root MuiButton-root makeStyles-root-193 makeStyles-root-194 MuiButton-contained makeStyles-button-160 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                        data-testid="PrimaryButton"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="MuiButton-label"
+                        >
+                          View
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+      >
+        <div
+          class="MuiGrid-root makeStyles-gridContainer-128 makeStyles-gridContainer-195 MuiGrid-container MuiGrid-spacing-xs-3"
+        >
+          <div
+            class="MuiGrid-root makeStyles-grid-1 MuiGrid-item MuiGrid-grid-xs-12"
+          >
+            <div
+              class="MuiPaper-root makeStyles-paper-197 MuiPaper-elevation0 MuiPaper-rounded"
+              data-testid="StatementTableView"
+            >
+              <div
+                class="MuiToolbar-root MuiToolbar-regular makeStyles-toolbar-204 MuiToolbar-gutters"
+              >
+                <div
+                  class="MuiBox-root MuiBox-root-209"
+                >
+                  <h1
+                    class="MuiTypography-root makeStyles-title-206 makeStyles-text-207 MuiTypography-h1"
+                  >
+                    Statement History
+                  </h1>
+                </div>
+                <div
+                  class="MuiFormControl-root makeStyles-formControl-208 MuiFormControl-marginDense"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+                  >
+                    <select
+                      aria-invalid="false"
+                      class="MuiSelect-root MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                    >
+                      <option>
+                        2020
+                      </option>
+                      <option>
+                        2019
+                      </option>
+                      <option>
+                        2018
+                      </option>
+                    </select>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7 10l5 5 5-5z"
+                      />
+                    </svg>
+                    <fieldset
+                      aria-hidden="true"
+                      class="PrivateNotchedOutline-root-210 MuiOutlinedInput-notchedOutline"
+                      style="padding-left: 8px;"
+                    >
+                      <legend
+                        class="PrivateNotchedOutline-legend-211"
+                        style="width: 0.01px;"
+                      >
+                        <span>
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiTableContainer-root makeStyles-tableContainer-199"
+              >
+                <table
+                  aria-label="enhanced table"
+                  aria-labelledby="tableTitle"
+                  class="MuiTable-root"
+                  data-testid="StatementTable"
+                >
+                  <tbody
+                    class="MuiTableBody-root"
+                  >
+                    <tr
+                      class="MuiTableRow-root"
+                    >
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body makeStyles-tableRow-200"
+                      >
+                        <div
+                          class="MuiBox-root MuiBox-root-233"
+                          data-testid="StatementGlance"
+                        >
+                          <div
+                            class="MuiPaper-root MuiCard-root makeStyles-card-149 makeStyles-row-18 MuiPaper-elevation0 MuiPaper-rounded"
+                          >
+                            <div
+                              class="MuiCardContent-root makeStyles-content-152 makeStyles-contentLeft-153 makeStyles-viewButton-163 makeStyles-innerPadding-172"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-234 makeStyles-row-18 makeStyles-headerBox-170"
+                              >
+                                <div
+                                  class="MuiBox-root MuiBox-root-235 makeStyles-viewLeft-156"
+                                >
+                                  <div
+                                    class="MuiBox-root MuiBox-root-236 makeStyles-due-26"
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      class="MuiSvgIcon-root makeStyles-fileIcon-35"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M6 2c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"
+                                      />
+                                    </svg>
+                                    <p
+                                      class="MuiTypography-root makeStyles-formattedStatementDate-164 MuiTypography-body1"
+                                    >
+                                      Oct 22, 2020
+                                    </p>
+                                  </div>
+                                  <div
+                                    class="MuiBox-root MuiBox-root-237"
+                                  >
+                                    <h4
+                                      class="MuiTypography-root makeStyles-dateIssued-167 MuiTypography-h4"
+                                    >
+                                      Date Issued
+                                    </h4>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiCardContent-root makeStyles-innerPadding-172 makeStyles-content-152 makeStyles-contentRight-154 makeStyles-row-18 makeStyles-labelValueRowDense-162"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-238 makeStyles-row-18 makeStyles-mainBox-166"
+                              >
+                                <div
+                                  class="MuiBox-root MuiBox-root-239 makeStyles-boxLeft-150"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-241 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Date Due
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-240 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          11/09/2020
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="MuiBox-root MuiBox-root-242 makeStyles-boxRight-151"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-244 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Remaining Balance
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-243 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          $5,733.27
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="MuiBox-root MuiBox-root-245 makeStyles-boxRight-151 makeStyles-statementidBox-168"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-247 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Statement No.
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-246 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          #6351561
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="MuiBox-root MuiBox-root-248 makeStyles-viewRight-157"
+                              >
+                                <button
+                                  class="MuiButtonBase-root MuiButton-root makeStyles-root-133 makeStyles-root-249 MuiButton-outlined makeStyles-viewBoxButton-169 MuiButton-disableElevation MuiButton-fullWidth"
+                                  data-testid="SecondaryButton"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiButton-label"
+                                  >
+                                    View
+                                  </span>
+                                  <span
+                                    class="MuiTouchRipple-root"
+                                  />
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr
+                      class="MuiTableRow-root"
+                    >
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body makeStyles-tableRow-200"
+                      >
+                        <div
+                          class="MuiBox-root MuiBox-root-250"
+                          data-testid="StatementGlance"
+                        >
+                          <div
+                            class="MuiPaper-root MuiCard-root makeStyles-card-149 makeStyles-row-18 MuiPaper-elevation0 MuiPaper-rounded"
+                          >
+                            <div
+                              class="MuiCardContent-root makeStyles-content-152 makeStyles-contentLeft-153 makeStyles-viewButton-163 makeStyles-innerPadding-172"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-251 makeStyles-row-18 makeStyles-headerBox-170"
+                              >
+                                <div
+                                  class="MuiBox-root MuiBox-root-252 makeStyles-viewLeft-156"
+                                >
+                                  <div
+                                    class="MuiBox-root MuiBox-root-253 makeStyles-due-26"
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      class="MuiSvgIcon-root makeStyles-fileIcon-35"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M6 2c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"
+                                      />
+                                    </svg>
+                                    <p
+                                      class="MuiTypography-root makeStyles-formattedStatementDate-164 MuiTypography-body1"
+                                    >
+                                      Sep 21, 2020
+                                    </p>
+                                  </div>
+                                  <div
+                                    class="MuiBox-root MuiBox-root-254"
+                                  >
+                                    <h4
+                                      class="MuiTypography-root makeStyles-dateIssued-167 MuiTypography-h4"
+                                    >
+                                      Date Issued
+                                    </h4>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiCardContent-root makeStyles-innerPadding-172 makeStyles-content-152 makeStyles-contentRight-154 makeStyles-row-18 makeStyles-labelValueRowDense-162"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-255 makeStyles-row-18 makeStyles-mainBox-166"
+                              >
+                                <div
+                                  class="MuiBox-root MuiBox-root-256 makeStyles-boxLeft-150"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-258 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Date Due
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-257 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          10/09/2020
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="MuiBox-root MuiBox-root-259 makeStyles-boxRight-151"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-261 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Remaining Balance
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-260 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          $6,333.20
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="MuiBox-root MuiBox-root-262 makeStyles-boxRight-151 makeStyles-statementidBox-168"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-264 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Statement No.
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-263 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          #6164834
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="MuiBox-root MuiBox-root-265 makeStyles-viewRight-157"
+                              >
+                                <button
+                                  class="MuiButtonBase-root MuiButton-root makeStyles-root-133 makeStyles-root-266 MuiButton-outlined makeStyles-viewBoxButton-169 MuiButton-disableElevation MuiButton-fullWidth"
+                                  data-testid="SecondaryButton"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiButton-label"
+                                  >
+                                    View
+                                  </span>
+                                  <span
+                                    class="MuiTouchRipple-root"
+                                  />
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr
+                      class="MuiTableRow-root"
+                    >
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body makeStyles-tableRow-200"
+                      >
+                        <div
+                          class="MuiBox-root MuiBox-root-267"
+                          data-testid="StatementGlance"
+                        >
+                          <div
+                            class="MuiPaper-root MuiCard-root makeStyles-card-149 makeStyles-row-18 MuiPaper-elevation0 MuiPaper-rounded"
+                          >
+                            <div
+                              class="MuiCardContent-root makeStyles-content-152 makeStyles-contentLeft-153 makeStyles-viewButton-163 makeStyles-innerPadding-172"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-268 makeStyles-row-18 makeStyles-headerBox-170"
+                              >
+                                <div
+                                  class="MuiBox-root MuiBox-root-269 makeStyles-viewLeft-156"
+                                >
+                                  <div
+                                    class="MuiBox-root MuiBox-root-270 makeStyles-due-26"
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      class="MuiSvgIcon-root makeStyles-fileIcon-35"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M6 2c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"
+                                      />
+                                    </svg>
+                                    <p
+                                      class="MuiTypography-root makeStyles-formattedStatementDate-164 MuiTypography-body1"
+                                    >
+                                      Aug 22, 2020
+                                    </p>
+                                  </div>
+                                  <div
+                                    class="MuiBox-root MuiBox-root-271"
+                                  >
+                                    <h4
+                                      class="MuiTypography-root makeStyles-dateIssued-167 MuiTypography-h4"
+                                    >
+                                      Date Issued
+                                    </h4>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiCardContent-root makeStyles-innerPadding-172 makeStyles-content-152 makeStyles-contentRight-154 makeStyles-row-18 makeStyles-labelValueRowDense-162"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-272 makeStyles-row-18 makeStyles-mainBox-166"
+                              >
+                                <div
+                                  class="MuiBox-root MuiBox-root-273 makeStyles-boxLeft-150"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-275 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Date Due
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-274 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          09/09/2020
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="MuiBox-root MuiBox-root-276 makeStyles-boxRight-151"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-278 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Remaining Balance
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-277 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          $6,929.53
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="MuiBox-root MuiBox-root-279 makeStyles-boxRight-151 makeStyles-statementidBox-168"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-281 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Statement No.
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-280 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          #5980680
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="MuiBox-root MuiBox-root-282 makeStyles-viewRight-157"
+                              >
+                                <button
+                                  class="MuiButtonBase-root MuiButton-root makeStyles-root-133 makeStyles-root-283 MuiButton-outlined makeStyles-viewBoxButton-169 MuiButton-disableElevation MuiButton-fullWidth"
+                                  data-testid="SecondaryButton"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiButton-label"
+                                  >
+                                    View
+                                  </span>
+                                  <span
+                                    class="MuiTouchRipple-root"
+                                  />
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr
+                      class="MuiTableRow-root"
+                    >
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body makeStyles-tableRow-200"
+                      >
+                        <div
+                          class="MuiBox-root MuiBox-root-284"
+                          data-testid="StatementGlance"
+                        >
+                          <div
+                            class="MuiPaper-root MuiCard-root makeStyles-card-149 makeStyles-row-18 MuiPaper-elevation0 MuiPaper-rounded"
+                          >
+                            <div
+                              class="MuiCardContent-root makeStyles-content-152 makeStyles-contentLeft-153 makeStyles-viewButton-163 makeStyles-innerPadding-172"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-285 makeStyles-row-18 makeStyles-headerBox-170"
+                              >
+                                <div
+                                  class="MuiBox-root MuiBox-root-286 makeStyles-viewLeft-156"
+                                >
+                                  <div
+                                    class="MuiBox-root MuiBox-root-287 makeStyles-due-26"
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      class="MuiSvgIcon-root makeStyles-fileIcon-35"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M6 2c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"
+                                      />
+                                    </svg>
+                                    <p
+                                      class="MuiTypography-root makeStyles-formattedStatementDate-164 MuiTypography-body1"
+                                    >
+                                      Jul 22, 2020
+                                    </p>
+                                  </div>
+                                  <div
+                                    class="MuiBox-root MuiBox-root-288"
+                                  >
+                                    <h4
+                                      class="MuiTypography-root makeStyles-dateIssued-167 MuiTypography-h4"
+                                    >
+                                      Date Issued
+                                    </h4>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiCardContent-root makeStyles-innerPadding-172 makeStyles-content-152 makeStyles-contentRight-154 makeStyles-row-18 makeStyles-labelValueRowDense-162"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-289 makeStyles-row-18 makeStyles-mainBox-166"
+                              >
+                                <div
+                                  class="MuiBox-root MuiBox-root-290 makeStyles-boxLeft-150"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-292 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Date Due
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-291 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          08/09/2020
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="MuiBox-root MuiBox-root-293 makeStyles-boxRight-151"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-295 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Remaining Balance
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-294 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          $7,518.63
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="MuiBox-root MuiBox-root-296 makeStyles-boxRight-151 makeStyles-statementidBox-168"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-298 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Statement No.
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-297 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          #5796635
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="MuiBox-root MuiBox-root-299 makeStyles-viewRight-157"
+                              >
+                                <button
+                                  class="MuiButtonBase-root MuiButton-root makeStyles-root-133 makeStyles-root-300 MuiButton-outlined makeStyles-viewBoxButton-169 MuiButton-disableElevation MuiButton-fullWidth"
+                                  data-testid="SecondaryButton"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiButton-label"
+                                  >
+                                    View
+                                  </span>
+                                  <span
+                                    class="MuiTouchRipple-root"
+                                  />
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr
+                      class="MuiTableRow-root"
+                    >
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body makeStyles-tableRow-200"
+                      >
+                        <div
+                          class="MuiBox-root MuiBox-root-301"
+                          data-testid="StatementGlance"
+                        >
+                          <div
+                            class="MuiPaper-root MuiCard-root makeStyles-card-149 makeStyles-row-18 MuiPaper-elevation0 MuiPaper-rounded"
+                          >
+                            <div
+                              class="MuiCardContent-root makeStyles-content-152 makeStyles-contentLeft-153 makeStyles-viewButton-163 makeStyles-innerPadding-172"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-302 makeStyles-row-18 makeStyles-headerBox-170"
+                              >
+                                <div
+                                  class="MuiBox-root MuiBox-root-303 makeStyles-viewLeft-156"
+                                >
+                                  <div
+                                    class="MuiBox-root MuiBox-root-304 makeStyles-due-26"
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      class="MuiSvgIcon-root makeStyles-fileIcon-35"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M6 2c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"
+                                      />
+                                    </svg>
+                                    <p
+                                      class="MuiTypography-root makeStyles-formattedStatementDate-164 MuiTypography-body1"
+                                    >
+                                      Jun 21, 2020
+                                    </p>
+                                  </div>
+                                  <div
+                                    class="MuiBox-root MuiBox-root-305"
+                                  >
+                                    <h4
+                                      class="MuiTypography-root makeStyles-dateIssued-167 MuiTypography-h4"
+                                    >
+                                      Date Issued
+                                    </h4>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiCardContent-root makeStyles-innerPadding-172 makeStyles-content-152 makeStyles-contentRight-154 makeStyles-row-18 makeStyles-labelValueRowDense-162"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-306 makeStyles-row-18 makeStyles-mainBox-166"
+                              >
+                                <div
+                                  class="MuiBox-root MuiBox-root-307 makeStyles-boxLeft-150"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-309 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Date Due
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-308 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          07/09/2020
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="MuiBox-root MuiBox-root-310 makeStyles-boxRight-151"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-312 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Remaining Balance
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-311 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          $8,103.15
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="MuiBox-root MuiBox-root-313 makeStyles-boxRight-151 makeStyles-statementidBox-168"
+                                >
+                                  <div
+                                    class="MuiPaper-root MuiCard-root makeStyles-card-14 makeStyles-labelValueColumnDense-161 makeStyles-cardBox-173 MuiPaper-elevation0 MuiPaper-rounded"
+                                  >
+                                    <div
+                                      class="MuiCardContent-root makeStyles-cardContent-155"
+                                    >
+                                      <div
+                                        class="MuiBox-root MuiBox-root-315 makeStyles-container-184 makeStyles-container-158"
+                                        data-testid="LabelValueColumn"
+                                      >
+                                        <h6
+                                          class="MuiTypography-root makeStyles-labelStyle-165 MuiTypography-h6"
+                                        >
+                                          Statement No.
+                                        </h6>
+                                        <p
+                                          class="MuiTypography-root makeStyles-value-181 makeStyles-value-314 makeStyles-valueSmall-183 makeStyles-valueLeft-159 MuiTypography-body1"
+                                        >
+                                          #5605767
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="MuiBox-root MuiBox-root-316 makeStyles-viewRight-157"
+                              >
+                                <button
+                                  class="MuiButtonBase-root MuiButton-root makeStyles-root-133 makeStyles-root-317 MuiButton-outlined makeStyles-viewBoxButton-169 MuiButton-disableElevation MuiButton-fullWidth"
+                                  data-testid="SecondaryButton"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiButton-label"
+                                  >
+                                    View
+                                  </span>
+                                  <span
+                                    class="MuiTouchRipple-root"
+                                  />
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div
+                  class="MuiBox-root MuiBox-root-214 makeStyles-pagination-203"
+                >
+                  <div
+                    class="makeStyles-root-215"
+                    data-testid="Pagination"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-rounded makeStyles-previousNext-217 Mui-disabled Mui-disabled"
+                      disabled=""
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiPaginationItem-icon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                        />
+                      </svg>
+                    </button>
+                    <ul
+                      class="makeStyles-ul-216"
+                    >
+                      <li
+                        class="makeStyles-li-318"
+                        data-testid="PaginationItem"
+                      >
+                        <button
+                          aria-current="true"
+                          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page makeStyles-page-319 MuiPaginationItem-rounded Mui-selected"
+                          tabindex="0"
+                          type="button"
+                        >
+                          1
+                          <span
+                            class="MuiTouchRipple-root"
+                          />
+                        </button>
+                      </li>
+                      <li
+                        class="makeStyles-li-318"
+                        data-testid="PaginationItem"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page makeStyles-page-319 MuiPaginationItem-rounded"
+                          tabindex="0"
+                          type="button"
+                        >
+                          2
+                          <span
+                            class="MuiTouchRipple-root"
+                          />
+                        </button>
+                      </li>
+                    </ul>
+                    <button
+                      class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-rounded makeStyles-previousNext-217"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiPaginationItem-icon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                        />
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-127 makeStyles-root-108"
+      data-testid="Footer"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+      >
+        <div
+          class="MuiGrid-root makeStyles-gridContainer-128 makeStyles-gridContainer-129 makeStyles-mainGridContainer-119 MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root makeStyles-desktopLogoContainer-118 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-3"
+          >
+            <img
+              class="makeStyles-logo-109 makeStyles-logo-130"
+              src="logo.png"
+            />
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-131 makeStyles-menuBox-122"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuHeadTitle-110 MuiTypography-h4"
+              >
+                FreedomPlus
+              </h4>
+              <div
+                class="MuiBox-root MuiBox-root-132 makeStyles-menuList-124"
+              >
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-116 MuiTypography-colorPrimary"
+                  href="https://www.freedomplus.com/privacypolicy/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-133 makeStyles-root-134 MuiButton-contained makeStyles-menuItemButton-117 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-111 MuiTypography-h4"
+                      >
+                        Privacy Notice
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-116 MuiTypography-colorPrimary"
+                  href="https://www.freedomplus.com/california-privacy-notice/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-133 makeStyles-root-135 MuiButton-contained makeStyles-menuItemButton-117 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-111 MuiTypography-h4"
+                      >
+                        California Privacy Notice
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-116 MuiTypography-colorPrimary"
+                  href="https://www.freedomplus.com/termsofuse"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-133 makeStyles-root-136 MuiButton-contained makeStyles-menuItemButton-117 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-111 MuiTypography-h4"
+                      >
+                        Terms of Use
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr
+            class="MuiDivider-root makeStyles-divider-123"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-137 makeStyles-menuBox-122"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuHeadTitle-110 MuiTypography-h4"
+              >
+                Consolidation Plus
+              </h4>
+              <div
+                class="MuiBox-root MuiBox-root-138 makeStyles-menuList-124"
+              >
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-116 MuiTypography-colorPrimary"
+                  href="https://consolplus.com/privacy-notice/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-133 makeStyles-root-139 MuiButton-contained makeStyles-menuItemButton-117 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-111 MuiTypography-h4"
+                      >
+                        Privacy Notice
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-116 MuiTypography-colorPrimary"
+                  href="https://consolplus.com/california-privacy-notice/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root makeStyles-root-133 makeStyles-root-140 MuiButton-contained makeStyles-menuItemButton-117 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+                    data-testid="SecondaryButton"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <h4
+                        class="MuiTypography-root makeStyles-menuItem-111 MuiTypography-h4"
+                      >
+                        California Privacy Notice
+                      </h4>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr
+            class="MuiDivider-root makeStyles-divider-123"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-141 makeStyles-menuBox-122"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuHeadTitle-110 MuiTypography-h4"
+              >
+                Mailing Address
+              </h4>
+              <div
+                class="MuiBox-root MuiBox-root-142 makeStyles-menuList-124"
+              >
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-112 MuiTypography-h4"
+                >
+                  Main Office
+                </h4>
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-112 MuiTypography-h4"
+                >
+                  2114 E Rio Salado Blvd
+                </h4>
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-112 MuiTypography-h4"
+                >
+                  Tempe, AZ 85281
+                </h4>
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-112 MuiTypography-h4"
+                >
+                   PO Box 2340
+                </h4>
+                <h4
+                  class="MuiTypography-root makeStyles-menuDescription-112 MuiTypography-h4"
+                >
+                  Phoenix, AZ 85002-2340
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+      >
+        <div
+          class="MuiGrid-root makeStyles-gridContainer-128 makeStyles-gridContainer-143 MuiGrid-container MuiGrid-spacing-xs-3"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item makeStyles-menuBottomWrap-113 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-12"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-144 makeStyles-bottomLogoBox-120"
+            >
+              <img
+                class="makeStyles-logo-109 makeStyles-logo-145"
+                src="logo.png"
+              />
+            </div>
+            <div
+              class="MuiBox-root MuiBox-root-146 makeStyles-bottomCopyrightBox-121"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-menuBottomDescription-114 MuiTypography-h4"
+              >
+                © 2021 Freedom Financial Asset Management, LLC. All Rights Reserved.
+              </h4>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiButton-root makeStyles-root-133 makeStyles-root-147 MuiButton-contained makeStyles-button-115 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+              data-testid="SecondaryButton"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Contact Us
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

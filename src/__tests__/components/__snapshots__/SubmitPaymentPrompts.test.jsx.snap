@@ -1,0 +1,550 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Payment Flow Various Prompts/Triggers renders AutoPay Error State 1`] = `
+<div>
+  <div
+    class="MuiPaper-root makeStyles-confirmPanelRoot-284 MuiPaper-elevation1 MuiPaper-rounded"
+    paperprops="[object Object]"
+  >
+    <div
+      class="MuiDialogContent-root"
+    >
+      <div
+        class="MuiGrid-root makeStyles-paymentChips-290 MuiGrid-container MuiGrid-justify-xs-space-evenly"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <div
+            class="MuiPaper-root MuiAlert-root MuiAlert-standardError makeStyles-icon-291 MuiPaper-elevation0"
+            role="alert"
+          >
+            <div
+              class="MuiAlert-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+                />
+              </svg>
+            </div>
+            <div
+              class="MuiAlert-message"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-292 makeStyles-confirmTitleContainer-280"
+      >
+        <p
+          class="MuiTypography-root makeStyles-confirmTitle-281 MuiTypography-body2 MuiTypography-colorTextPrimary"
+        >
+          Your AutoPay details need to be reviewed.
+        </p>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-293"
+      >
+        <p
+          class="MuiTypography-root makeStyles-confirmSubTitle-282 MuiTypography-body2 MuiTypography-colorTextSecondary"
+        >
+          Please contact Customer Service for Support
+          .
+        </p>
+      </div>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root makeStyles-root-294 makeStyles-root-295 MuiButton-contained makeStyles-button-287 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+      data-testid="PrimaryButton"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Contact Us
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Payment Flow Various Prompts/Triggers renders Confirm Payment Details 1`] = `
+<div>
+  <div
+    aria-hidden="true"
+    class="MuiBackdrop-root makeStyles-confirmPanelBackdrop-93"
+    style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  >
+    <div
+      class="MuiDrawer-root MuiDrawer-docked makeStyles-confirmPanelRoot-94"
+      id="confirmPanel"
+      style="webkit-transform: none; transform: none; webkit-transition: -webkit-transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; transition: transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
+    >
+      <div
+        class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorBottom makeStyles-modalPaper-129 MuiDrawer-paperAnchorDockedBottom MuiPaper-elevation0"
+        data-testid="ConfirmPaymentDetails"
+      >
+        <div
+          class="MuiDialogContent-root"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-130 makeStyles-confirmTitleContainer-90"
+          >
+            <p
+              class="MuiTypography-root makeStyles-confirmTitle-91 MuiTypography-body2 MuiTypography-colorTextPrimary"
+            >
+              Do you authorize this transaction?
+            </p>
+            <p
+              class="MuiTypography-root makeStyles-confirmSubTitle-92 MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              To complete this transaction
+              , 
+              please confirm that you are the holder of this account
+              :
+            </p>
+            <div
+              class="MuiBox-root MuiBox-root-131 makeStyles-paymentDetails-100"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-evenly"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+                >
+                  Routing Number
+                  <br />
+                  Account Ending
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+                  style="text-align: right;"
+                >
+                  <span>
+                    00000000
+                  </span>
+                  <br />
+                  •••• 
+                  0378
+                </div>
+              </div>
+            </div>
+            <p
+              class="MuiTypography-root makeStyles-confirmSubTitle-92 MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              Please confirm that today you are authorizing Freedom Financial Network to schedule a
+               
+              recurring
+               
+              payment with the following details
+              :
+            </p>
+            <div
+              class="MuiBox-root MuiBox-root-132 makeStyles-paymentDetails-100"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-evenly"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+                >
+                  Payment Amount
+                  <br />
+                  Payment Date
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+                  style="text-align: right;"
+                >
+                  <span>
+                    $1,000.00
+                  </span>
+                  <br />
+                  <span>
+                    1/17/2021
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root makeStyles-root-133 makeStyles-root-134 MuiButton-contained makeStyles-buttonPayPastDue-95 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+          data-testid="PrimaryButton"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Yes, I authorize this transaction
+            .
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root makeStyles-root-135 makeStyles-root-136 MuiButton-contained makeStyles-buttonGoBack-96 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+          data-testid="SecondaryButton"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Cancel
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Payment Flow Various Prompts/Triggers renders Currently Enrolled AutoPay 1`] = `
+<div>
+  <div
+    aria-hidden="true"
+    class="MuiBackdrop-root makeStyles-confirmPanelBackdrop-48"
+    style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  >
+    <div
+      class="MuiDrawer-root MuiDrawer-docked makeStyles-confirmPanelRoot-49"
+      id="confirmPanel"
+      style="webkit-transform: none; transform: none; webkit-transition: -webkit-transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; transition: transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
+    >
+      <div
+        class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorBottom makeStyles-modalPaper-84 MuiDrawer-paperAnchorDockedBottom MuiPaper-elevation0"
+        data-testid="SubmitPaymentEnrolledInAutoPay"
+      >
+        <div
+          class="MuiDialogContent-root"
+        >
+          <div
+            class="MuiGrid-root makeStyles-paymentChips-55 MuiGrid-container MuiGrid-justify-xs-space-evenly"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item"
+            >
+              <div
+                class="MuiBox-root MuiBox-root-85 makeStyles-autoPayOn-54 makeStyles-chip-53"
+              >
+                Please Note
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-86 makeStyles-confirmTitleContainer-45"
+          >
+            <p
+              class="MuiTypography-root makeStyles-confirmTitle-46 MuiTypography-body2 MuiTypography-colorTextPrimary"
+            >
+              You are currently enrolled in AutoPay.
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-87"
+          >
+            <p
+              class="MuiTypography-root makeStyles-confirmSubTitle-47 MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              Payments submitted now will be in addition to this scheduled payment
+              .
+            </p>
+          </div>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root makeStyles-root-88 makeStyles-root-89 MuiButton-contained makeStyles-buttonAutoPay-52 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+          data-testid="PrimaryButton"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            OK
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Payment Flow Various Prompts/Triggers renders Currently Past Due 1`] = `
+<div>
+  <div
+    aria-hidden="true"
+    class="MuiBackdrop-root makeStyles-confirmPanelBackdrop-4"
+    style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  >
+    <div
+      class="MuiDrawer-root MuiDrawer-docked makeStyles-confirmPanelRoot-5"
+      id="confirmPanel"
+      style="webkit-transform: none; transform: none; webkit-transition: -webkit-transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; transition: transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
+    >
+      <div
+        class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorBottom makeStyles-modalPaper-39 MuiDrawer-paperAnchorDockedBottom MuiPaper-elevation0"
+        data-testid="SubmitPaymentPastDue"
+      >
+        <div
+          class="MuiDialogContent-root"
+        >
+          <div
+            class="MuiGrid-root makeStyles-paymentChips-10 MuiGrid-container MuiGrid-justify-xs-space-evenly"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item"
+            >
+              <div
+                class="MuiBox-root MuiBox-root-40 makeStyles-errorIconContainer-9"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-errorIcon-8"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-41 makeStyles-confirmTitleContainer-1"
+          >
+            <p
+              class="MuiTypography-root makeStyles-confirmTitle-2 MuiTypography-body2 MuiTypography-colorTextPrimary"
+            >
+              Please pay off your past due amount first.
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-42"
+          >
+            <p
+              class="MuiTypography-root makeStyles-confirmSubTitle-3 MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              AutoPay is designed to pay down your contractual amount due
+              .
+              We recommend scheduling a one time payment to get current, or contact our Customer Service team for additional information about how to enroll in AutoPay
+              .
+            </p>
+          </div>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root makeStyles-root-43 makeStyles-root-44 MuiButton-contained makeStyles-buttonPayPastDue-6 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+          data-testid="DangerButton"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Pay Past Due Amount
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-buttonGoBack-7"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Go Back
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Payment Flow Various Prompts/Triggers renders Loading Data Error 1`] = `
+<div
+  aria-hidden="true"
+/>
+`;
+
+exports[`Payment Flow Various Prompts/Triggers renders Pay From Account 1`] = `
+<div>
+  <div
+    aria-hidden="true"
+    class="MuiBackdrop-root makeStyles-confirmPanelBackdrop-235"
+    style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  >
+    <div
+      class="MuiDrawer-root MuiDrawer-docked makeStyles-confirmPanelRoot-237"
+      id="confirmPanel"
+      style="webkit-transform: none; transform: none; webkit-transition: -webkit-transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; transition: transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
+    >
+      <div
+        class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorBottom makeStyles-modalPaper-274 MuiDrawer-paperAnchorDockedBottom MuiPaper-elevation0"
+        data-testid="SubmitPaymentPayFrom"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-275 makeStyles-header-236"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-276"
+          />
+          <div
+            class="MuiDialogContent-root makeStyles-confirmSubTitle-234"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              Pay From
+            </h6>
+          </div>
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-checkIcon-238"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+            />
+          </svg>
+        </div>
+        <hr
+          class="MuiDivider-root"
+        />
+        <div
+          class="MuiDialogContent-root makeStyles-dialogContent-242"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-277"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root makeStyles-root-278 makeStyles-root-279 MuiButton-text MuiButton-textSizeLarge MuiButton-sizeLarge MuiButton-disableElevation"
+              data-testid="PrimaryButton"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                + New Payment Account
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Payment Flow Various Prompts/Triggers renders PreExisting Payment Scheduled 1`] = `
+<div>
+  <div
+    aria-hidden="true"
+    class="MuiBackdrop-root makeStyles-confirmPanelBackdrop-140"
+    style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  >
+    <div
+      class="MuiDrawer-root MuiDrawer-docked makeStyles-confirmPanelRoot-141"
+      id="confirmPanel"
+      style="webkit-transform: none; transform: none; webkit-transition: -webkit-transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; transition: transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
+    >
+      <div
+        class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorBottom makeStyles-modalPaper-176 MuiDrawer-paperAnchorDockedBottom MuiPaper-elevation0"
+        data-testid="PreExistingPaymentScheduled"
+      >
+        <div
+          class="MuiDialogContent-root"
+        >
+          <div
+            class="MuiGrid-root makeStyles-paymentChips-147 MuiGrid-container MuiGrid-justify-xs-space-evenly"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item"
+            >
+              <div
+                class="MuiBox-root MuiBox-root-177 makeStyles-autoPayOn-146 makeStyles-chip-145"
+              >
+                Please Note
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-178 makeStyles-confirmTitleContainer-137"
+          >
+            <p
+              class="MuiTypography-root makeStyles-confirmTitle-138 MuiTypography-body2 MuiTypography-colorTextPrimary"
+            >
+              You already have a scheduled payment.
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-179"
+          >
+            <p
+              class="MuiTypography-root makeStyles-confirmSubTitle-139 MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              Payment submitted now will be in addition to this scheduled payment
+              .
+            </p>
+          </div>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root makeStyles-root-180 makeStyles-root-181 MuiButton-contained makeStyles-buttonAutoPay-144 MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+          data-testid="PrimaryButton"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            OK
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Payment Flow Various Prompts/Triggers renders You Will Still Owe / Additional Amount Prompt 1`] = `
+<div>
+  <div
+    aria-hidden="true"
+    class="MuiBackdrop-root makeStyles-confirmPanelBackdrop-202"
+    style="opacity: 0; visibility: hidden;"
+  />
+</div>
+`;

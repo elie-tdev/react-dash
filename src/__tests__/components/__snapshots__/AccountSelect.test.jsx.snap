@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoanSelect Component renders LoanSelect component 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-36 makeStyles-column-16"
+    data-testid="LoanSelectButton"
+  />
+</div>
+`;

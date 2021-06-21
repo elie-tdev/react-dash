@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Danger Button 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root MuiButton-root makeStyles-root-5 makeStyles-root-6 MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+    data-testid="DangerButton"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Hello World
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders Info Button 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root MuiButton-root makeStyles-root-7 makeStyles-root-8 MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+    data-testid="InfoButton"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Hello World
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders Primary Button 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root MuiButton-root makeStyles-root-3 makeStyles-root-4 MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+    data-testid="PrimaryButton"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Hello World
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders Success Button 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root MuiButton-root makeStyles-root-1 makeStyles-root-2 MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+    data-testid="SuccessButton"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Hello world
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders Warning Button 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root MuiButton-root makeStyles-root-9 makeStyles-root-10 MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-disableElevation MuiButton-fullWidth"
+    data-testid="WarningButton"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Hello World
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;

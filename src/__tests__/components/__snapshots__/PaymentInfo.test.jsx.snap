@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-6 makeStyles-paymentTextContainer-3"
+    data-testid="PaymentInfo"
+  >
+    <h5
+      class="MuiTypography-root makeStyles-paymentText-1 makeStyles-paymentText-4 MuiTypography-h5 MuiTypography-displayInline"
+    >
+      Your payment amount of 
+    </h5>
+    <h5
+      class="MuiTypography-root makeStyles-value-2 makeStyles-value-5 MuiTypography-h5 MuiTypography-displayInline"
+    >
+      $500.00
+       
+    </h5>
+    <h5
+      class="MuiTypography-root makeStyles-paymentText-1 makeStyles-paymentText-4 MuiTypography-h5 MuiTypography-displayInline"
+    >
+      will be charged on 
+    </h5>
+    <h5
+      class="MuiTypography-root makeStyles-value-2 makeStyles-value-5 MuiTypography-h5 MuiTypography-displayInline"
+    >
+      Jan 12, 2021
+    </h5>
+    <h5
+      class="MuiTypography-root makeStyles-paymentText-1 makeStyles-paymentText-4 MuiTypography-h5 MuiTypography-displayInline"
+    >
+      .
+    </h5>
+  </div>
+</div>
+`;

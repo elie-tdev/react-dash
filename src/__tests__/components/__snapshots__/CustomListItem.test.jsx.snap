@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom List Item component renders Custom List Item 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-12 makeStyles-fauxInputField-5 makeStyles-fauxInputFieldBlue-7"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 MuiTypography-colorPrimary"
+    >
+      primary
+    </p>
+    <p
+      class="MuiTypography-root makeStyles-fauxFloatRight-8 MuiTypography-body1"
+    />
+    <div
+      class="MuiPaper-root MuiAlert-root MuiAlert-standardSuccess makeStyles-alert-10 MuiPaper-elevation0"
+      role="alert"
+    >
+      <div
+        class="MuiAlert-message"
+      >
+        Recommended
+      </div>
+    </div>
+    <br />
+    <div
+      class="MuiInputBase-root makeStyles-additionalAmountInput-2 MuiInputBase-fullWidth MuiInputBase-adornedStart MuiInputBase-adornedEnd"
+      variant=""
+    >
+      $
+      <input
+        class="MuiInputBase-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd"
+        id="otherAmount"
+        maxlength="6"
+        placeholder="$0"
+        type="text"
+        value="value"
+      />
+      <div
+        class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+      >
+        <button
+          class="MuiButtonBase-root MuiIconButton-root makeStyles-payMoreButton-3"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            Confirm
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

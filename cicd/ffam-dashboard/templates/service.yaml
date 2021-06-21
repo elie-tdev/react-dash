@@ -1,0 +1,31 @@
+
+{{- $targetPort := .Values.service.targetPort -}}
+{{- if .Values.googleEndpoints.enabled -}}
+{{- $targetPort = .Values.googleEndpoints.targetPort -}}
+{{- end -}}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "dashboard.fullname" . }}
+  namespace: {{ .Values.appNamespace }}
+  labels:
+    app.kubernetes.io/name: {{ include "dashboard.name" . }}
+    helm.sh/chart: {{ include "dashboard.chart" . }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/managed-by: {{ .Release.Service }}
+    app: {{ include "dashboard.name" . }}
+    chart: {{ include "dashboard.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: {{ $targetPort }}
+      protocol: TCP
+      name: http
+  selector:
+    app.kubernetes.io/name: {{ include "dashboard.name" . }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app: {{ include "dashboard.name" . }}
+    release: {{ .Release.Name }}

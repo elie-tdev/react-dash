@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Component renders Loader component 1`] = `
+<div>
+  <div
+    class="MuiPaper-root makeStyles-loaderBox-1 MuiPaper-elevation3 MuiPaper-rounded"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-4 makeStyles-loader-2"
+    />
+  </div>
+</div>
+`;
